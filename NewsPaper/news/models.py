@@ -9,6 +9,7 @@ class Category (models.Model):
 
 
 class Author(models.Model):
+
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     rating = models.IntegerField(default=0)
 
@@ -40,7 +41,7 @@ class Post (models.Model):
     category = models.ManyToManyField(Category, through="PostCategory")
     date = models.DateTimeField(auto_now=True)
     title = models.CharField(max_length=255)
-    text = models.TextField
+    text = models.TextField()
     rating = models.IntegerField(default=0)
 
     def preview(self):
@@ -64,7 +65,7 @@ class Comment (models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     rating = models.IntegerField(default=0)
-    text = models.TextField
+    text = models.TextField()
     data = models.DateTimeField(auto_now_add=True)
 
     def like(self):
