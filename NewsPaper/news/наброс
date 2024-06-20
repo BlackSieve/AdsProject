@@ -1,0 +1,24 @@
+Post.object.create(author= c1,
+news= NW
+category=\\
+title= Победа в игре
+text= В результате долгого противостояния команда синих победила
+)
+
+Post.object.create(author= с1,
+news= SE
+category=\\
+title= Проигрыш красных
+text= красные проиграли
+)
+
+Post.object.create(author= c1,
+news= SE
+category=\\
+title= ППобеда в игре
+text= Синие победили
+)
+
+g
+v
+c1 = Comment.objects.create(text="ура",post = p3, user=a1.user)
