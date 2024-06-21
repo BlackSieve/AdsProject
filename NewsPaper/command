@@ -1,0 +1,59 @@
+python manage.py shell
+from news.models import *
+
+1.Создание двух пользователей с помощью метода User.objects.create_user:
+
+u1 = User.objects.create_user(username='Данилл')
+u2 = User.objects.create_user(username="Денис")
+
+2.Создание авторов
+
+a1 = Author.objects.create(user=u1)
+a2 = Author.objects.create(user=u2)
+
+3. Создание постов
+
+p1 = Post.objects.create(title="Победа в игре", text="в этом турнире команда синих победила с отрывом", news="NW", author=a1)
+p2 = Post.objects.create(title="Победа синих", text="с огромным отрывом побеждают синии", news="SE", author=a2)
+p3 = Post.objects.create(title="Проигрыш красных", text="в этот раз команде красным не удалось выйграть в турнире ", news="SE", author=a1)
+
+4.Создание категорий
+
+g1 = Category.objects.create(name="Игры")
+g2 = Category.objects.create(name="Турниры")
+g3 = Category.objects.create(name="Выигрыши")
+g4 = Category.objects.create(name="Важное")
+
+5.Создание комментариев под новостями
+
+c1 = Comment.objects.create(text="рад за них",post = p2, user=a2.user)
+c2 = Comment.objects.create(text="это было круто",post = p1, user=a1.user)
+c3 = Comment.objects.create(text="это плохо",post = p3, user=a2.user)
+c4 = Comment.objects.create(text="жалко красных",post = p1, user=a1.user)
+
+6.Добавление категорий к постам
+PostCategory.objects.create(post = p1, category = g1)
+p2 = Post.objects.get(pk=2)
+p2.category.add(g1,g4)
+
+7. Вывод лучшего поста
+best_post = Post.objects.order_by('-rating').first()
+best_post.author.user.username
+best_post.rating
+best_post.title
+best_post.preview()
+
+8.Вывод лучшего комментария
+comments_best_post = Comment.objects.filter(post = best_post)
+comments_best_post
+comments_best_post.values('data', 'user', 'rating','text')
+
+9.Вывод лучшего автора
+authours = Author.objects.all()
+authours = Author.objects.order_by('-rating')
+best_authour = authours.first()
+best_authour.user.username
+
+10.Обновление рейтинга
+a1.rating
+a1.update_rating()
