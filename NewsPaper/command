@@ -57,3 +57,4 @@ best_authour.user.username
 10.Обновление рейтинга
 a1.rating
 a1.update_rating()
+)
