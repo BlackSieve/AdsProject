@@ -22,3 +22,39 @@ text= Синие победили
 g
 v
 c1 = Comment.objects.create(text="ура",post = p3, user=a1.user)
+
+
+
+{% extends 'flatpages/default.html' %}
+{% load custom_filters %}
+
+{% block title %}
+Post
+{% endblock title %}
+
+{% block content %}
+<h1>Все новости</h1>
+<h3>{{ time_now|date:'M d Y' }}</h3>
+<hr>
+{% if post %}
+<table>
+        <tr>
+            <td> Дата публикации </td>
+            <td> Заголовок </td>
+            <td> Новость </td>
+            <td> Категория </td>
+        </tr>
+        {% for post_pr in post %}
+        <tr>
+            <td>{{ post_pr.date|date:'d M Y' }}</td>
+            <td>{{ post_pr.title|truncatechars:20 }}</td>
+            <td>{{ post_pr.text|censor }}</td>
+            <td>{{ post_pr.category }}</td>
+        </tr>
+        {% endfor %}
+
+</table>
+{% else %}
+    <h2> Новостей нет!</h2>
+{% endif %}
+{% endblock content%}
