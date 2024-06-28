@@ -40,7 +40,7 @@ class Post (models.Model):
         (section, "Статья")
     ]
     author = models.ForeignKey(Author, on_delete=models.CASCADE)
-    news = models.CharField(max_length=2, default=news)
+    news = models.CharField(max_length=2, choices=POST_TYPES, default=news)
     category = models.ManyToManyField(Category, through="PostCategory")
     date = models.DateTimeField(auto_now=True)
     title = models.CharField(max_length=255)
@@ -59,7 +59,7 @@ class Post (models.Model):
         self.save()
 
     def __str__(self):
-        return f'{self.news.title():{self.text[:20]}}'
+        return f'{self.get_news_display()}:{self.text}'
 
 
 class PostCategory (models.Model):

@@ -3,7 +3,7 @@ from django import template
 register = template.Library()
 
 
-censor_list=['']
+censor_list=['орехи','турнире','этот','игре']
 
 
 @register.filter()

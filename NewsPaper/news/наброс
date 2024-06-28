@@ -58,3 +58,16 @@ Post
     <h2> Новостей нет!</h2>
 {% endif %}
 {% endblock content%}
+
+<int:pk>/
+
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+News
+{% endblock title %}
+
+
+{% block content %}
+<h1>{{ post }}</h1>
+{% endblock content%}

@@ -1,5 +1,5 @@
 {% extends 'flatpages/default.html' %}
-
+{% load custom_filters %}
 
 {% block title %}
 Post
@@ -15,12 +15,14 @@ Post
             <td> Новость </td>
             <td> Категория </td>
         </tr>
-        {% for posts in post %}
+        {% for post in news %}
         <tr>
-            <td>{{ posts.date|date:'d M Y' }}</td>
-            <td>{{ posts.title|truncatechars:20 }}</td>
-            <td>{{ posts.text}}</td>
-            <td>{{ posts.category }}</td>
+            <td>{{ post.date|date:'d M Y' }}</td>
+            <td>{{ post.title|censor }}</td>
+            <td>{{ post.text|truncatechars:20|censor}}</td>
+            {% for cat in post.category.all %}
+            <td>{{ cat.name }}</td>
+            {% endfor %}
         </tr>
         {% endfor %}
 

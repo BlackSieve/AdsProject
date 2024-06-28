@@ -5,7 +5,7 @@ from datetime import datetime
 
 class PostList(ListView):
     model = Post
-    ordering = 'news'
+    ordering = '-date'
     template_name = 'news.html'
     context_object_name = 'news'
 
@@ -13,6 +13,7 @@ class PostList(ListView):
         context = super().get_context_data(**kwargs)
         context['time_now']=datetime.utcnow()
         context['next_sale']=None
+        return context
 
 
 class PostDetail(DetailView):
