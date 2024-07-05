@@ -42,7 +42,7 @@ class PostCreate(CreateView):
 
     def form_valid(self, form):
         post = form.save(commit=False)
-        if self.request.path == '/articles/create/':
+        if self.request.path == 'news/articles/create/':
             post.post_news = 'SE'
         return super().form_valid(form)
 
@@ -61,7 +61,7 @@ class PostDelete(DeleteView):
 
 class PostSearch(ListView):
     model = Post
-    ordering = '-creation_date'
+    ordering = '-date'
     template_name = 'post.html'
     context_object_name = 'news'
 
