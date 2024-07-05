@@ -5,8 +5,8 @@ from .models import Post
 class PostFilter(FilterSet):
     class Meta:
         model = Post
-        field = {
-           'name': ['icontains'],
-            'author': ['au'],
-            'date': ['nw']
+        fields = {
+           'title': ['icontains'],
+            'author': ['exact'],
+            'date': ['exact']
         }
