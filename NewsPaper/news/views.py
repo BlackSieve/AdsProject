@@ -6,7 +6,7 @@ from .models import Post
 from datetime import datetime
 from .filters import PostFilter
 from .forms import PostForms
-from  django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 
 class PostAuth(LoginRequiredMixin, TemplateView):

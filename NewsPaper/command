@@ -58,3 +58,6 @@ best_authour.user.username
 a1.rating
 a1.update_rating()
 )
+
+
+'DIRS': [os.path.join(BASE_DIR, 'templates')],
