@@ -6,7 +6,7 @@ from .models import Post
 from datetime import datetime
 from .filters import PostFilter
 from .forms import PostForms
-from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
 
 
 class PostAuth(LoginRequiredMixin, TemplateView):
@@ -40,7 +40,8 @@ class PostDetail(DetailView):
     context_object_name = 'post'
 
 
-class PostCreate(CreateView):
+class PostCreate(PermissionRequiredMixin,CreateView):
+    permission_required = ('news.add_post')
     form_class = PostForms
     model = Post
     template_name = 'post_edit.html'
@@ -53,13 +54,14 @@ class PostCreate(CreateView):
         return super().form_valid(form)
 
 
-class PostUpdate(LoginRequiredMixin, UpdateView):
+class PostUpdate(PermissionRequiredMixin, UpdateView):
+    permission_required = ('news.change_post')
     form_class = PostForms
     model = Post
     template_name = 'post_edit.html'
 
 
-class PostDelete(LoginRequiredMixin,DeleteView):
+class PostDelete(PermissionRequiredMixin,DeleteView):
     model = Post
     template_name = 'post_delete.html'
     success_url = reverse_lazy('news')

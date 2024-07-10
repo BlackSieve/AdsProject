@@ -61,6 +61,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
+    "allauth.account.middleware.AccountMiddleware"
 
 ]
 
@@ -69,7 +70,7 @@ ROOT_URLCONF = 'NewsPaper.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR/'templates'],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -139,10 +140,10 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATICFILES_DIRS = [
-    BASE_DIR / "css"
+    BASE_DIR / "static"
 ]
 
-LOGIN_URL = 'sign/login/'
+LOGIN_URL = '/sign/login/'
 LOGIN_REDIRECT_URL = '/'
 
 AUTHENTICATION_BACKENDS = [
