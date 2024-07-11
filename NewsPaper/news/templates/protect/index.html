@@ -8,7 +8,7 @@
     {% csrf_token %}
     <input type="submit" value="Выйти">
 </form>
-{% if is_not_premium %}
+{% if is_not_authors %}
 <button> <a href="/sign/upgrade/"> Хочу стать автором!</a> </button>
 {% endif %}
 {% endblock %}
