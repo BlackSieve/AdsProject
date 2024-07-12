@@ -63,7 +63,7 @@ class Post (models.Model):
         return f'{self.get_news_display()}:{self.text}'
 
     def get_absolute_url(self):
-        return reverse('post_detail',args=[str(self.pk)])
+        return reverse('post-detail',args=[str(self.pk)])
 
     
 class PostCategory (models.Model):
