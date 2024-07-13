@@ -4,8 +4,13 @@
 {% block title %}
 Post
 {% endblock title %}
+    {% if is_not_subscriber %}
 
 {% block content %}
+    {% if is_not_subscriber %}
+        <p class="text-center"><a href="{% url 'subscribe' category.id %}" class="btn btn-secondary btn-sm"></a> Подписаться</p>
+    {% endif %}
+
 <h1>Все новости</h1>
 <h3>{{ time_now|date:'M d Y' }}</h3>
 
@@ -20,7 +25,7 @@ Post
             <td> Новость </td>
             <td> Категория </td>
         </tr>
-        {% for post in news %}
+        {% for post in category_list %}
         <tr>
             <td>{{ post.date|date:'d M Y' }}</td>
             <td>{{ post.title|censor }}</td>
