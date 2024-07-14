@@ -26,7 +26,7 @@ Post
             <td>{{ post.title|censor }}</td>
             <td>{{ post.text|truncatechars:20|censor}}</td>
             <td>{% for cat in post.category.all %}
-                <a href="{% url 'category-list' cat.id %}">{{cat.name}}</a>
+                <a href="{% url 'category-list' cat.id %}">{{cat}}</a>
                 {% endfor %}</td>
         </tr>
         {% endfor %}

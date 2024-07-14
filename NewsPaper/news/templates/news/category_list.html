@@ -4,20 +4,20 @@
 {% block title %}
 Post
 {% endblock title %}
-    {% if is_not_subscriber %}
 
 {% block content %}
     {% if is_not_subscriber %}
-        <p class="text-center"><a href="{% url 'subscribe' category.id %}" class="btn btn-secondary btn-sm"></a> Подписаться</p>
+        <p class="text-center"><a href="{% url 'subscribe' category.id %}" class="btn btn-secondary btn-sm" style="margin-top: 10px">Подписаться</a></p>
     {% endif %}
 
-<h1>Все новости</h1>
+<h1>Все новости в категории {{ category }}</h1>
 <h3>{{ time_now|date:'M d Y' }}</h3>
 
 <form action="" method="get">
     {{ filterset.form.as_p }}
     <input type="submit" value="Найти" />
 </form>
+{% if category_news_list %}
 <table>
         <tr>
             <td> Дата публикации </td>
@@ -25,19 +25,21 @@ Post
             <td> Новость </td>
             <td> Категория </td>
         </tr>
-        {% for post in category_list %}
+        {% for post in category_news_list %}
         <tr>
             <td>{{ post.date|date:'d M Y' }}</td>
             <td>{{ post.title|censor }}</td>
             <td>{{ post.text|truncatechars:20|censor}}</td>
-            {% for cat in post.category.all %}
-                <a href="{% url 'category-list' cat.id %}"></a>
-            {% endfor %}
+            <td>{% for cat in post.category.all %}
+                <a href="{% url 'category-list' cat.id %}">{{cat}}</a>
+                {% endfor %}</td>
         </tr>
         {% endfor %}
-
+{% else %}
+    Публикаций в данной категории нету
+{% endif %}
 </table>
-
+<hr>
 {% if page_obj.has_previous %}
     <a href="?page=1">1</a>
     {% if page_obj.previous_page_number != 1 %}
