@@ -66,7 +66,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
-    #"allauth.account.middleware.AccountMiddleware"
+    #"allauth.account.middleware.AccountMiddleware",
+    #"allauth.account.middleware.AccountMiddleware",
 
 ]
 
@@ -172,6 +173,7 @@ EMAIL_HOST_USER = 'testschollsf'
 EMAIL_HOST_PASSWORD = 'atdbgoraesolomgd'
 EMAIL_USE_SSL = True
 DEFAULT_FROM_EMAIL = 'testschollsf@yandex.ru'
+
 APSCHEDULER_DATETIME_FORMAT = 'N j, Y,f:s a'
 APSCHEDULER_RUN_NOW_TIMEOUT = 25
 
