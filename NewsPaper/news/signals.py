@@ -9,7 +9,7 @@ from .models import PostCategory
 
 @receiver(m2m_changed, sender = PostCategory)
 def notify_about_new_post(sender, instance, **kwargs):
-    if kwargs['actions']=='post_add':
+    if kwargs['action']=='post_add':
         categories = instance.category.all()
         subscribers_emails = []
 
@@ -22,10 +22,10 @@ def notify_about_new_post(sender, instance, **kwargs):
 
 def send_notifications(preview, pk, title, subscribers):
     html_content = render_to_string(
-        'post_create_email.html',
+        'news/post_create_email.html',
         {
             'text':preview,
-            'link':f'{settings.SITE_URL}/post/{pk}'
+            'link':f'{settings.SITE_URL}/post/post/{pk}/'
         }
     )
 
