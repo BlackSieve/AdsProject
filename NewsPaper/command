@@ -62,3 +62,5 @@ a1.update_rating()
 
 'DIRS': [os.path.join(BASE_DIR, 'templates')],
 BASE_DIR/'templates'
+
+day_of_week="thu", hour="12", minute="51", timezone='UTC'

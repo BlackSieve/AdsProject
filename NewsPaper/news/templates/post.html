@@ -6,13 +6,9 @@ Post
 {% endblock title %}
 
 {% block content %}
-<h1>Все новости</h1>
+<h1>Публикация {{post.id}}</h1>
 <h3>{{ time_now|date:'M d Y' }}</h3>
 
-<form action="" method="get">
-    {{ filterset.form.as_p }}
-    <input type="submit" value="Найти" />
-</form>
 <table>
         <tr>
             <td> Дата публикации </td>
@@ -20,7 +16,6 @@ Post
             <td> Новость </td>
             <td> Категория </td>
         </tr>
-        {% for post in news %}
         <tr>
             <td>{{ post.date|date:'d M Y' }}</td>
             <td>{{ post.title|censor }}</td>
@@ -29,7 +24,7 @@ Post
                 <a href="{% url 'category-list' cat.id %}">{{cat}}</a>
                 {% endfor %}</td>
         </tr>
-        {% endfor %}
+
 
 </table>
 
