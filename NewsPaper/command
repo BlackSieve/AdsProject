@@ -64,3 +64,9 @@ a1.update_rating()
 BASE_DIR/'templates'
 
 day_of_week="thu", hour="12", minute="51", timezone='UTC'
+
+
+celery -A NewsPaper worker -l INFO --pool=solo
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+hour=8,minute=0,day_of_week='monday'
