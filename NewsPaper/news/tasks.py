@@ -37,7 +37,7 @@ def send_email_task(pk):
 
 @shared_task()
 def weekly_send_email_task():
-    today = datetime.timezone.now()
+    today = datetime.datetime.now()
     last_week = today - datetime.timedelta(days=7)
     posts = Post.objects.filter(date__gte=last_week)
     categories = set(posts.values_list('category__name', flat=True))

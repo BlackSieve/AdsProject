@@ -12,6 +12,7 @@ from news.models import Post, Category
 from django.template.loader import render_to_string
 from django.core.mail import EmailMultiAlternatives
 from django.utils import timezone
+
 logger = logging.getLogger(__name__)
 
 
