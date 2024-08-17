@@ -12,6 +12,9 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+import logging
+
+logger = logging.getLogger('django')
 
 load_dotenv()
 
@@ -185,3 +188,50 @@ CELERY_RESULT_BACKEND = 'redis://localhost:6379'
 CELERY_ACCEPT_CONTENT = ['application/json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'style' : '{',
+    'formatters': {
+        'simple': {
+            'format': '%(asctime)s %(levelname)s %(message)s',
+            'datefmt': "%d.%m.%Y %H-%M-%S"
+        },
+        'simple_warning': {
+            'format': '%(asctime)s %(levelname)s %(message)s %(pathname)c',
+            'datefmt': "%d.%m.%Y %H-%M-%S"
+        },
+        'simple_error':{
+            'format': '%(asctime)s %(levelname)s %(message)s %(exc_info)c',
+            'datefmt': "%d.%m.%Y %H-%M-%S"
+        },
+        'general_log':{
+            'format':'%(asctime)s %(levelname)s %(message)s %(module)c',
+            'datefmt': "%d.%m.%Y %H-%M-%S"
+        },
+        'errors_log':{
+            'format':'%(asctime)s %(levelname)s %(message)s %(exc_info)c',
+            'datefmt': "%d.%m.%Y %H-%M-%S"
+        },
+        'security_log':{
+            'format':'%(asctime)s %(levelname)s %(message)s %(module)c',
+            'datefmt': "%d.%m.%Y %H-%M-%S"
+        },
+        'email':{
+            'format':'%(asctime)s %(levelname)s %(message)s %(pathname)c',
+            'datefmt': "%d.%m.%Y %H-%M-%S"
+        }
+    },
+    'filters':{
+        'require_debug_true':{
+            '()': 'django.utils.log.RequireDebugTrue',
+        },
+        'require_debug_false': {
+            '()': 'django.utils.log.RequireDebugFalse',
+        },
+    },
+    'handlers':{
+
+    }
+}
