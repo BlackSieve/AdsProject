@@ -235,37 +235,37 @@ LOGGING = {
         'console':{
             'level':'DEBUG',
             'filters':['require_debug_true'],
-            'class':'login.StreamHandler',
+            'class':'logging.StreamHandler',
             'formatter':'simple'
         },
         'console_warning': {
             'level': 'WARNING',
             'filters': ['require_debug_true'],
-            'class': 'login.StreamHandler',
+            'class': 'logging.StreamHandler',
             'formatter': 'simple_warning'
         },
         'console_error': {
             'level': 'ERROR',
             'filters': ['require_debug_true'],
-            'class': 'login.StreamHandler',
+            'class': 'logging.StreamHandler',
             'formatter': 'simple_error'
         },
         'general': {
             'level': 'INFO',
             'filters': ['require_debug_false'],
-            'class': 'login.FileHandler',
+            'class': 'logging.FileHandler',
             'filename':'logs/general.log',
             'formatter': 'general_log'
         },
         'errors': {
             'level': 'ERROR',
-            'class': 'login.FileHandler',
+            'class': 'logging.FileHandler',
             'filename': 'logs/errors.log',
             'formatter': 'errors_log'
         },
         'security': {
             'level': 'INFO',
-            'class': 'login.FileHandler',
+            'class': 'logging.FileHandler',
             'filename': 'logs/security.log',
             'formatter': 'security_log'
         },
