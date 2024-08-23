@@ -1,0 +1,9 @@
+23.08.2024 18-50-51 INFO Watching for file changes with StatReloader autoreload
+23.08.2024 18-50-56 INFO "GET / HTTP/1.1" 200 828 basehttp
+23.08.2024 18-50-59 INFO "GET /post/post/ HTTP/1.1" 200 3056 basehttp
+23.08.2024 18-51-04 INFO "GET /post/news/create/ HTTP/1.1" 200 2768 basehttp
+23.08.2024 18-51-15 WARNING Forbidden (CSRF token missing.): /post/news/create/ log
+23.08.2024 18-51-15 WARNING "POST /post/news/create/ HTTP/1.1" 403 1019 basehttp
+23.08.2024 18-54-14 INFO C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\news\views.py changed, reloading. autoreload
+23.08.2024 18-54-14 INFO Watching for file changes with StatReloader autoreload
+23.08.2024 18-55-33 INFO C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\NewsPaper\settings.py changed, reloading. autoreload

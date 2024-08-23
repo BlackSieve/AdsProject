@@ -176,7 +176,8 @@ EMAIL_HOST_USER = 'testschollsf'
 EMAIL_HOST_PASSWORD = 'atdbgoraesolomgd'
 EMAIL_USE_SSL = True
 DEFAULT_FROM_EMAIL = 'testschollsf@yandex.ru'
-
+ADMINS = [('I','sharinovi@mail.ru')]
+SERVER_EMAIL = 'testschollsf@yandex.ru'
 
 APSCHEDULER_DATETIME_FORMAT = 'N j, Y,f:s a'
 APSCHEDULER_RUN_NOW_TIMEOUT = 25
@@ -199,27 +200,27 @@ LOGGING = {
             'datefmt': "%d.%m.%Y %H-%M-%S"
         },
         'simple_warning': {
-            'format': '%(asctime)s %(levelname)s %(message)s %(pathname)c',
+            'format': '%(asctime)s %(levelname)s %(message)s %(pathname)s',
             'datefmt': "%d.%m.%Y %H-%M-%S"
         },
         'simple_error':{
-            'format': '%(asctime)s %(levelname)s %(message)s %(exc_info)c',
+            'format': '%(asctime)s %(levelname)s %(message)s %(exc_info)s',
             'datefmt': "%d.%m.%Y %H-%M-%S"
         },
         'general_log':{
-            'format':'%(asctime)s %(levelname)s %(message)s %(module)c',
+            'format':'%(asctime)s %(levelname)s %(message)s %(module)s',
             'datefmt': "%d.%m.%Y %H-%M-%S"
         },
         'errors_log':{
-            'format':'%(asctime)s %(levelname)s %(message)s %(exc_info)c',
+            'format':'%(asctime)s %(levelname)s %(message)s %(exc_info)s',
             'datefmt': "%d.%m.%Y %H-%M-%S"
         },
         'security_log':{
-            'format':'%(asctime)s %(levelname)s %(message)s %(module)c',
+            'format':'%(asctime)s %(levelname)s %(message)s %(module)s',
             'datefmt': "%d.%m.%Y %H-%M-%S"
         },
         'email':{
-            'format':'%(asctime)s %(levelname)s %(message)s %(pathname)c',
+            'format':'%(asctime)s %(levelname)s %(message)s %(pathname)s',
             'datefmt': "%d.%m.%Y %H-%M-%S"
         }
     },
@@ -276,29 +277,35 @@ LOGGING = {
             'formatter': 'email'
         },
     },
-    'logger': {
+    'loggers': {
         'django': {
             'handlers': ['console', 'console_warning', 'console_error', 'general'],
+            'level':'DEBUG',
             'propagate': True
         },
         'django.request': {
             'handlers': ['errors', 'mail_admin'],
+            'level':'ERROR',
             'propagate': True
         },
         'django.server': {
             'handlers': ['errors', 'mail_admin'],
+            'level':'ERROR',
             'propagate': True
         },
         'django.template': {
             'handlers': ['errors'],
+            'level':'ERROR',
             'propagate': True
         },
         'django.db.backend':{
             'handlers':['errors'],
+            'level':'ERROR',
             'propagate':True
         },
         'django.security':{
             'handlers':['security'],
+            'level':'INFO',
             'propagate':True
         },
     }
