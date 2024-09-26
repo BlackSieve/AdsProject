@@ -1109,3 +1109,52 @@ AttributeError: 'IndexView' object has no attribute 'filterset'
 26.09.2024 19-32-08 INFO "GET /post/categories/2/ HTTP/1.1" 200 3502 None
 26.09.2024 19-32-08 INFO "GET /post/categories/3/ HTTP/1.1" 200 3498 None
 26.09.2024 19-32-14 INFO "GET /post/post/ HTTP/1.1" 200 2830 None
+26.09.2024 19-47-16 ERROR Internal Server Error: / (<class 'AttributeError'>, AttributeError("'IndexView' object has no attribute 'filterset'"), <traceback object at 0x00000235942CE780>)
+Traceback (most recent call last):
+  File "C:\Users\œ \PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\œ \PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\œ \PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\œ \PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\œ \PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\œ \PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\œ \PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 35, in get_context_data
+    context['filterset'] = self.filterset
+AttributeError: 'IndexView' object has no attribute 'filterset'
+26.09.2024 19-47-16 ERROR "GET / HTTP/1.1" 500 90275 None
+26.09.2024 19-48-16 WARNING Not Found: /Ù‚¸¯Ú None
+26.09.2024 19-48-16 WARNING "GET /%D1%84%D0%B2%D1%8C%D1%88%D1%82 HTTP/1.1" 404 2702 None
+26.09.2024 19-48-21 INFO "GET /admin/ HTTP/1.1" 200 15245 None
+26.09.2024 19-48-25 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 200 16287 None
+26.09.2024 19-48-25 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 19-48-30 INFO "GET /admin/auth/group/ HTTP/1.1" 200 13214 None
+26.09.2024 19-48-30 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 19-48-32 INFO "GET /admin/auth/user/ HTTP/1.1" 200 19879 None
+26.09.2024 19-48-32 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 19-48-36 INFO "GET /admin/django_apscheduler/djangojobexecution/ HTTP/1.1" 200 13281 None
+26.09.2024 19-48-36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 19-48-37 INFO "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 13978 None
+26.09.2024 19-48-37 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 19-48-40 INFO "GET /admin/flatpages/flatpage/ HTTP/1.1" 200 12648 None
+26.09.2024 19-48-40 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 19-48-41 INFO "GET /admin/news/category/ HTTP/1.1" 200 14667 None
+26.09.2024 19-48-41 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 19-48-43 INFO "GET /admin/news/post/ HTTP/1.1" 200 15684 None
+26.09.2024 19-48-43 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 19-48-47 INFO "GET /admin/news/post/10/change/ HTTP/1.1" 200 15411 None
+26.09.2024 19-48-47 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 19-49-50 INFO "POST /admin/news/post/10/change/ HTTP/1.1" 302 0 None
+26.09.2024 19-49-50 INFO "GET /admin/news/post/ HTTP/1.1" 200 16058 None
+26.09.2024 19-49-50 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 19-49-53 INFO "GET /admin/news/post/11/change/ HTTP/1.1" 200 15599 None
+26.09.2024 19-49-53 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 19-50-37 INFO "POST /admin/news/post/11/change/ HTTP/1.1" 302 0 None
+26.09.2024 19-50-37 INFO "GET /admin/news/post/ HTTP/1.1" 200 16108 None
+26.09.2024 19-50-37 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 19-50-38 INFO "GET /admin/news/post/12/change/ HTTP/1.1" 200 15425 None
+26.09.2024 19-50-38 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
