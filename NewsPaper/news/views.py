@@ -49,11 +49,11 @@ class PostCreate(PermissionRequiredMixin,CreateView):
     template_name = 'post_edit.html'
     context_object_name = 'create'
 
-    def form_valid(self, form):
-        post = form.save(commit=False)
-        if self.request.path == 'news/articles/create/':
-            post.post_news = 'SE'
-        return super().form_valid(form)
+    # def form_valid(self, form):
+    #     post = form.save(commit=False)
+    #     if self.request.path == 'news/articles/create/':
+    #         post.post_news = 'SE'
+    #     return super().form_valid(form)
 
 
 class PostUpdate(PermissionRequiredMixin, UpdateView):
@@ -116,5 +116,5 @@ def subscribe(request, pk):
     category = Category.objects.get(id=pk)
     category.subscribers.add(user)
 
-    massage = "Вы успешно подписались на рассылку новостей по категории"
+    massage = "Вы успешно подписались на рассылку объявлений по категории"
     return render(request,'news/subscribe.html', {'category':category, 'massage':massage})

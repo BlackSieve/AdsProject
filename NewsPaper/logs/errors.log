@@ -11,3 +11,1101 @@
 23.08.2024 18-50-59 INFO "GET /post/post/ HTTP/1.1" 200 3056 None
 23.08.2024 18-51-04 INFO "GET /post/news/create/ HTTP/1.1" 200 2768 None
 23.08.2024 18-51-15 WARNING "POST /post/news/create/ HTTP/1.1" 403 1019 None
+23.08.2024 19-57-21 WARNING Not Found: /post/post/sfsfsf None
+23.08.2024 19-57-21 WARNING "GET /post/post/sfsfsf HTTP/1.1" 404 4732 None
+23.08.2024 20-02-05 INFO "GET / HTTP/1.1" 200 828 None
+23.08.2024 20-02-13 INFO "GET /post/post/ HTTP/1.1" 200 3056 None
+23.08.2024 20-02-20 WARNING Not Found: /post/post/gsgs None
+23.08.2024 20-02-20 WARNING "GET /post/post/gsgs HTTP/1.1" 404 4726 None
+23.08.2024 21-41-24 INFO "GET / HTTP/1.1" 200 828 None
+26.09.2024 12-14-53 INFO "GET / HTTP/1.1" 302 0 None
+26.09.2024 12-14-53 INFO "GET /accounts/login/?next=/ HTTP/1.1" 200 1714 None
+26.09.2024 12-14-53 WARNING Not Found: /favicon.ico None
+26.09.2024 12-14-53 WARNING "GET /favicon.ico HTTP/1.1" 404 2685 None
+26.09.2024 12-15-04 INFO "GET /admin/ HTTP/1.1" 302 0 None
+26.09.2024 12-15-04 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181 None
+26.09.2024 12-15-04 INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0 None
+26.09.2024 12-15-04 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0 None
+26.09.2024 12-15-04 INFO "GET /static/admin/css/login.css HTTP/1.1" 304 0 None
+26.09.2024 12-15-04 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0 None
+26.09.2024 12-15-04 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 304 0 None
+26.09.2024 12-15-04 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0 None
+26.09.2024 12-15-04 INFO "GET /static/admin/js/theme.js HTTP/1.1" 304 0 None
+26.09.2024 12-15-07 INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0 None
+26.09.2024 12-15-07 INFO "GET /admin/ HTTP/1.1" 200 14434 None
+26.09.2024 12-15-07 INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0 None
+26.09.2024 12-15-07 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0 None
+26.09.2024 12-15-07 INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0 None
+26.09.2024 12-15-07 INFO "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0 None
+26.09.2024 12-15-09 INFO "GET /admin/auth/user/ HTTP/1.1" 200 19877 None
+26.09.2024 12-15-09 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0 None
+26.09.2024 12-15-09 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0 None
+26.09.2024 12-15-09 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0 None
+26.09.2024 12-15-09 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0 None
+26.09.2024 12-15-09 INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0 None
+26.09.2024 12-15-09 INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0 None
+26.09.2024 12-15-09 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0 None
+26.09.2024 12-15-09 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0 None
+26.09.2024 12-15-09 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0 None
+26.09.2024 12-15-09 INFO "GET /static/admin/img/search.svg HTTP/1.1" 304 0 None
+26.09.2024 12-15-09 INFO "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0 None
+26.09.2024 12-15-09 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-15-09 INFO "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0 None
+26.09.2024 12-15-09 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0 None
+26.09.2024 12-15-09 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0 None
+26.09.2024 12-15-09 INFO "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0 None
+26.09.2024 12-15-11 INFO "GET /admin/auth/user/1/change/ HTTP/1.1" 200 28771 None
+26.09.2024 12-15-11 INFO "GET /static/admin/css/forms.css HTTP/1.1" 304 0 None
+26.09.2024 12-15-11 INFO "GET /static/admin/js/calendar.js HTTP/1.1" 304 0 None
+26.09.2024 12-15-11 INFO "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0 None
+26.09.2024 12-15-11 INFO "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0 None
+26.09.2024 12-15-11 INFO "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0 None
+26.09.2024 12-15-11 INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0 None
+26.09.2024 12-15-11 INFO "GET /static/admin/css/widgets.css HTTP/1.1" 304 0 None
+26.09.2024 12-15-11 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-15-11 INFO "GET /static/admin/js/change_form.js HTTP/1.1" 304 0 None
+26.09.2024 12-15-11 INFO "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0 None
+26.09.2024 12-15-11 INFO "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0 None
+26.09.2024 12-15-11 INFO "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0 None
+26.09.2024 12-15-15 INFO "GET /admin/auth/user/ HTTP/1.1" 200 19877 None
+26.09.2024 12-15-15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-15-21 INFO "GET /admin/news/category/ HTTP/1.1" 200 14667 None
+26.09.2024 12-15-21 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-15-23 INFO "GET /admin/news/post/ HTTP/1.1" 200 15771 None
+26.09.2024 12-15-23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-15-26 INFO "GET /admin/sites/site/ HTTP/1.1" 200 13416 None
+26.09.2024 12-15-26 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-15-28 INFO "GET /admin/socialaccount/socialaccount/ HTTP/1.1" 200 13913 None
+26.09.2024 12-15-28 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-15-30 INFO "GET /admin/socialaccount/socialtoken/ HTTP/1.1" 200 13036 None
+26.09.2024 12-15-30 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-15-31 INFO "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 12997 None
+26.09.2024 12-15-31 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-15-34 INFO "GET /admin/django_apscheduler/djangojobexecution/ HTTP/1.1" 200 13281 None
+26.09.2024 12-15-34 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-15-35 INFO "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 13978 None
+26.09.2024 12-15-35 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-15-39 INFO "GET /admin/auth/group/ HTTP/1.1" 200 13214 None
+26.09.2024 12-15-39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-15-41 INFO "GET /admin/auth/user/ HTTP/1.1" 200 19877 None
+26.09.2024 12-15-41 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-15-59 INFO "GET /admin/auth/user/1/change/ HTTP/1.1" 200 28771 None
+26.09.2024 12-15-59 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-15-59 INFO "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 304 0 None
+26.09.2024 12-15-59 INFO "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0 None
+26.09.2024 12-16-15 INFO "GET /admin/auth/user/ HTTP/1.1" 200 19877 None
+26.09.2024 12-16-15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-17-40 INFO "GET /admin/auth/user/1/change/ HTTP/1.1" 200 28771 None
+26.09.2024 12-17-41 INFO "GET /admin/auth/user/ HTTP/1.1" 200 19877 None
+26.09.2024 12-17-48 INFO "GET / HTTP/1.1" 200 751 None
+26.09.2024 12-17-51 INFO "GET /post/post/ HTTP/1.1" 200 3038 None
+26.09.2024 12-17-51 INFO "GET /static/css/styles.css HTTP/1.1" 304 0 None
+26.09.2024 12-17-53 INFO "GET /post/categories/1/ HTTP/1.1" 200 3888 None
+26.09.2024 12-17-55 INFO "GET /post/categories/2/ HTTP/1.1" 200 3886 None
+26.09.2024 12-17-56 INFO "GET /post/categories/4/ HTTP/1.1" 200 3894 None
+26.09.2024 12-17-57 INFO "GET /post/categories/4/ HTTP/1.1" 200 3894 None
+26.09.2024 12-18-15 WARNING Not Found: /post/ads/delete/1 None
+26.09.2024 12-18-15 WARNING "GET /post/ads/delete/1 HTTP/1.1" 404 4127 None
+26.09.2024 12-18-27 INFO "GET /post/ads/1/delete/ HTTP/1.1" 200 2078 None
+26.09.2024 12-18-33 WARNING Not Found: /about/ None
+26.09.2024 12-18-33 WARNING "GET /about/ HTTP/1.1" 404 2670 None
+26.09.2024 12-18-51 INFO "GET /post/post/ HTTP/1.1" 200 3038 None
+26.09.2024 12-19-17 INFO "GET /admin/ HTTP/1.1" 200 14434 None
+26.09.2024 12-19-19 INFO "GET /admin/auth/user/ HTTP/1.1" 200 19877 None
+26.09.2024 12-19-19 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-20-00 INFO "GET /post/ads/create HTTP/1.1" 301 0 None
+26.09.2024 12-20-00 INFO "GET /post/ads/create/ HTTP/1.1" 200 3209 None
+26.09.2024 12-20-24 INFO "GET /post/post/ HTTP/1.1" 200 3038 None
+26.09.2024 12-20-32 INFO "GET /admin/ HTTP/1.1" 200 14434 None
+26.09.2024 12-20-36 INFO "GET /admin/news/post/ HTTP/1.1" 200 15771 None
+26.09.2024 12-20-36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-20-46 INFO "GET /admin/news/post/1/change/ HTTP/1.1" 200 16082 None
+26.09.2024 12-20-46 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-20-46 INFO "GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280 None
+26.09.2024 12-20-49 INFO "GET /admin/news/post/1/delete/ HTTP/1.1" 200 12235 None
+26.09.2024 12-20-49 INFO "GET /static/admin/js/cancel.js HTTP/1.1" 304 0 None
+26.09.2024 12-20-53 INFO "POST /admin/news/post/1/delete/ HTTP/1.1" 302 0 None
+26.09.2024 12-20-53 INFO "GET /admin/news/post/ HTTP/1.1" 200 15722 None
+26.09.2024 12-20-53 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-20-55 INFO "GET /admin/news/category/ HTTP/1.1" 200 14667 None
+26.09.2024 12-20-55 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-20-56 INFO "GET /admin/news/post/ HTTP/1.1" 200 15380 None
+26.09.2024 12-20-56 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-20-58 INFO "GET /admin/news/post/2/change/ HTTP/1.1" 200 15611 None
+26.09.2024 12-20-58 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-21-41 INFO "POST /admin/news/post/2/change/ HTTP/1.1" 302 0 None
+26.09.2024 12-21-41 INFO "GET /admin/news/post/ HTTP/1.1" 200 15615 None
+26.09.2024 12-21-41 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-21-45 INFO "GET /admin/auth/group/ HTTP/1.1" 200 13214 None
+26.09.2024 12-21-45 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-21-46 INFO "GET /admin/django_apscheduler/djangojobexecution/ HTTP/1.1" 200 13281 None
+26.09.2024 12-21-46 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-21-47 INFO "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 13978 None
+26.09.2024 12-21-47 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-21-49 INFO "GET /admin/flatpages/flatpage/ HTTP/1.1" 200 12648 None
+26.09.2024 12-21-49 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-21-51 INFO "GET /admin/news/category/ HTTP/1.1" 200 14667 None
+26.09.2024 12-21-51 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-21-52 INFO "GET /admin/news/post/ HTTP/1.1" 200 15365 None
+26.09.2024 12-21-52 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-24-23 INFO "GET /admin/news/post/3/change/ HTTP/1.1" 200 15778 None
+26.09.2024 12-24-23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-24-54 INFO "POST /admin/news/post/3/change/ HTTP/1.1" 302 0 None
+26.09.2024 12-24-54 INFO "GET /admin/news/post/ HTTP/1.1" 200 15616 None
+26.09.2024 12-24-54 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-25-00 INFO "GET /admin/news/post/9/change/ HTTP/1.1" 200 15849 None
+26.09.2024 12-25-00 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-34-30 INFO "GET / HTTP/1.1" 200 751 None
+26.09.2024 12-34-30 WARNING Not Found: /favicon.ico None
+26.09.2024 12-34-30 WARNING "GET /favicon.ico HTTP/1.1" 404 2685 None
+26.09.2024 12-34-40 INFO "GET /admin/ HTTP/1.1" 200 14720 None
+26.09.2024 12-34-46 INFO "GET /admin/auth/user/ HTTP/1.1" 200 19877 None
+26.09.2024 12-34-46 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-34-48 INFO "GET /admin/news/category/ HTTP/1.1" 200 14667 None
+26.09.2024 12-34-48 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-34-50 INFO "GET /admin/news/post/ HTTP/1.1" 200 15404 None
+26.09.2024 12-34-50 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-35-15 INFO "GET /admin/news/post/4/change/ HTTP/1.1" 200 15586 None
+26.09.2024 12-35-15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-36-34 INFO "POST /admin/news/post/4/change/ HTTP/1.1" 302 0 None
+26.09.2024 12-36-34 INFO "GET /admin/news/post/ HTTP/1.1" 200 15743 None
+26.09.2024 12-36-34 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-36-41 INFO "GET /admin/news/post/5/change/ HTTP/1.1" 200 15586 None
+26.09.2024 12-36-41 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-37-20 INFO "POST /admin/news/post/5/change/ HTTP/1.1" 302 0 None
+26.09.2024 12-37-20 INFO "GET /admin/news/post/ HTTP/1.1" 200 15717 None
+26.09.2024 12-37-20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-37-25 INFO "GET /admin/news/post/4/change/ HTTP/1.1" 200 15730 None
+26.09.2024 12-37-25 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-37-27 INFO "POST /admin/news/post/4/change/ HTTP/1.1" 302 0 None
+26.09.2024 12-37-27 INFO "GET /admin/news/post/ HTTP/1.1" 200 15749 None
+26.09.2024 12-37-27 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-37-29 INFO "GET /admin/news/post/6/change/ HTTP/1.1" 200 15474 None
+26.09.2024 12-37-29 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-38-32 INFO "POST /admin/news/post/6/change/ HTTP/1.1" 302 0 None
+26.09.2024 12-38-32 INFO "GET /admin/news/post/ HTTP/1.1" 200 15877 None
+26.09.2024 12-38-32 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-38-39 INFO "GET /admin/news/post/7/change/ HTTP/1.1" 200 15420 None
+26.09.2024 12-38-39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-39-36 INFO "POST /admin/news/post/7/change/ HTTP/1.1" 302 0 None
+26.09.2024 12-39-36 INFO "GET /admin/news/post/ HTTP/1.1" 200 15963 None
+26.09.2024 12-39-36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-39-41 INFO "GET /admin/news/post/8/change/ HTTP/1.1" 200 15594 None
+26.09.2024 12-39-41 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-40-59 INFO "POST /admin/news/post/8/change/ HTTP/1.1" 302 0 None
+26.09.2024 12-40-59 INFO "GET /admin/news/post/ HTTP/1.1" 200 16032 None
+26.09.2024 12-40-59 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-41-01 INFO "GET /admin/news/post/9/change/ HTTP/1.1" 200 15869 None
+26.09.2024 12-41-01 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-41-47 INFO "POST /admin/news/post/9/change/ HTTP/1.1" 302 0 None
+26.09.2024 12-41-47 INFO "GET /admin/news/post/ HTTP/1.1" 200 15992 None
+26.09.2024 12-41-47 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 12-41-50 INFO "GET /admin/news/post/10/change/ HTTP/1.1" 200 15451 None
+26.09.2024 12-41-50 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 16-17-11 ERROR Internal Server Error: / (<class 'AttributeError'>, AttributeError("'IndexView' object has no attribute 'filterset'"), <traceback object at 0x0000019831394880>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 34, in get_context_data
+    context['filterset'] = self.filterset
+AttributeError: 'IndexView' object has no attribute 'filterset'
+26.09.2024 16-17-11 ERROR "GET / HTTP/1.1" 500 90486 None
+26.09.2024 16-33-14 ERROR Internal Server Error: / (<class 'django.core.exceptions.FieldError'>, FieldError("Unsupported lookup 'user' for ForeignKey or join on the field not permitted."), <traceback object at 0x0000023D14022AC0>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 26, in get_context_data
+    queryset = Comment.objects.filter(post__user__user_id=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1306, in build_lookup
+    lhs = self.try_transform(lhs, name)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'user' for ForeignKey or join on the field not permitted.
+26.09.2024 16-33-14 ERROR "GET / HTTP/1.1" 500 135972 None
+26.09.2024 16-33-34 ERROR Internal Server Error: / (<class 'TypeError'>, TypeError("'dict' object is not callable"), <traceback object at 0x0000025B8F263480>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 26, in get_context_data
+    context['filterset'] = PostFilter(self.request.GET, request=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 17, in __init__
+    self.filters['post'].queryset = Post.objects.filter(user__user_id=kwargs('request'))
+TypeError: 'dict' object is not callable
+26.09.2024 16-33-34 ERROR "GET / HTTP/1.1" 500 94577 None
+26.09.2024 16-33-51 ERROR Internal Server Error: / (<class 'django.core.exceptions.FieldError'>, FieldError("Unsupported lookup 'user' for ForeignKey or join on the field not permitted."), <traceback object at 0x0000029726967480>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 26, in get_context_data
+    queryset = Comment.objects.filter(post__user__user_id=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1306, in build_lookup
+    lhs = self.try_transform(lhs, name)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'user' for ForeignKey or join on the field not permitted.
+26.09.2024 16-33-51 ERROR "GET / HTTP/1.1" 500 136109 None
+26.09.2024 17-47-57 ERROR Internal Server Error: / (<class 'django.core.exceptions.FieldError'>, FieldError("Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted."), <traceback object at 0x00000285B08B4BC0>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 26, in get_context_data
+    queryset = Comment.objects.filter(post__user_id=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1313, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted.
+26.09.2024 17-47-57 ERROR "GET / HTTP/1.1" 500 135765 None
+26.09.2024 17-48-23 ERROR Internal Server Error: / (<class 'django.core.exceptions.FieldError'>, FieldError("Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted."), <traceback object at 0x0000013C9A506300>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 26, in get_context_data
+    queryset = Comment.objects.filter(post__user_id=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1313, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted.
+26.09.2024 17-48-23 ERROR "GET / HTTP/1.1" 500 135902 None
+26.09.2024 17-49-49 INFO "GET /admin/ HTTP/1.1" 200 15481 None
+26.09.2024 17-49-55 INFO "GET /admin/news/post/ HTTP/1.1" 200 15684 None
+26.09.2024 17-49-55 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 17-49-58 INFO "GET /admin/auth/user/ HTTP/1.1" 200 19877 None
+26.09.2024 17-49-58 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 17-53-04 ERROR Internal Server Error: / (<class 'django.core.exceptions.FieldError'>, FieldError("Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted."), <traceback object at 0x0000013C9A427880>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 26, in get_context_data
+    queryset = Comment.objects.filter(post__user_id=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1313, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted.
+26.09.2024 17-53-04 ERROR "GET / HTTP/1.1" 500 135902 None
+26.09.2024 17-53-36 ERROR Internal Server Error: / (<class 'django.core.exceptions.FieldError'>, FieldError("Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted."), <traceback object at 0x0000013C9A6B5DC0>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 26, in get_context_data
+    queryset = Comment.objects.filter(post__user_id=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1313, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted.
+26.09.2024 17-53-36 ERROR "GET / HTTP/1.1" 500 135902 None
+26.09.2024 17-53-36 ERROR Internal Server Error: / (<class 'django.core.exceptions.FieldError'>, FieldError("Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted."), <traceback object at 0x0000013C9A44A080>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 26, in get_context_data
+    queryset = Comment.objects.filter(post__user_id=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1313, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted.
+26.09.2024 17-53-36 ERROR "GET / HTTP/1.1" 500 135902 None
+26.09.2024 17-53-55 ERROR Internal Server Error: / (<class 'TypeError'>, TypeError("'dict' object is not callable"), <traceback object at 0x000002D09386E980>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 27, in get_context_data
+    context['filterset'] = PostFilter(self.request.GET, request=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 17, in __init__
+    self.filters['post'].queryset = Post.objects.filter(user_id=kwargs('request'))
+TypeError: 'dict' object is not callable
+26.09.2024 17-53-55 ERROR "GET / HTTP/1.1" 500 94574 None
+26.09.2024 17-54-50 INFO "GET / HTTP/1.1" 200 799 None
+26.09.2024 17-54-57 INFO "GET /? HTTP/1.1" 200 799 None
+26.09.2024 17-54-58 INFO "POST /sign/logout/ HTTP/1.1" 200 256 None
+26.09.2024 17-54-59 INFO "GET / HTTP/1.1" 302 0 None
+26.09.2024 17-54-59 INFO "GET /accounts/login/?next=/ HTTP/1.1" 200 1714 None
+26.09.2024 17-55-16 INFO "GET /admin/ HTTP/1.1" 302 0 None
+26.09.2024 17-55-16 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181 None
+26.09.2024 17-55-18 INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0 None
+26.09.2024 17-55-18 INFO "GET /admin/ HTTP/1.1" 200 15481 None
+26.09.2024 17-55-21 INFO "GET / HTTP/1.1" 200 799 None
+26.09.2024 17-55-25 INFO "GET /? HTTP/1.1" 200 799 None
+26.09.2024 17-56-21 INFO "GET /? HTTP/1.1" 200 924 None
+26.09.2024 17-56-23 INFO "GET /post/post/ HTTP/1.1" 200 2830 None
+26.09.2024 17-56-24 INFO "GET /post/categories/1/ HTTP/1.1" 200 3280 None
+26.09.2024 17-56-26 INFO "GET /post/categories/4/ HTTP/1.1" 200 3320 None
+26.09.2024 17-56-27 INFO "GET /post/categories/3/ HTTP/1.1" 200 3498 None
+26.09.2024 17-56-28 INFO "GET /post/categories/2/ HTTP/1.1" 200 3502 None
+26.09.2024 17-56-29 INFO "GET /post/categories/3/ HTTP/1.1" 200 3498 None
+26.09.2024 17-56-29 INFO "GET /post/categories/4/ HTTP/1.1" 200 3320 None
+26.09.2024 17-56-37 INFO "GET /post/post/ HTTP/1.1" 200 2830 None
+26.09.2024 17-56-45 INFO "GET / HTTP/1.1" 200 924 None
+26.09.2024 17-56-48 INFO "GET /? HTTP/1.1" 200 924 None
+26.09.2024 17-57-18 INFO "GET /post/post/ HTTP/1.1" 200 2830 None
+26.09.2024 18-00-40 ERROR Internal Server Error: / (<class 'TypeError'>, TypeError('get_context_data() takes 1 positional argument but 2 were given'), <traceback object at 0x000001A86AC1F340>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 25, in get_context_data
+    context = super().get_context_data(self, **kwargs)
+TypeError: get_context_data() takes 1 positional argument but 2 were given
+26.09.2024 18-00-40 ERROR "GET / HTTP/1.1" 500 90486 None
+26.09.2024 18-11-17 ERROR Internal Server Error: / (<class 'django.core.exceptions.FieldError'>, FieldError("Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted."), <traceback object at 0x000001E515DE0A80>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 26, in get_context_data
+    queryset = Comment.objects.filter(post__user_id=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1313, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted.
+26.09.2024 18-11-17 ERROR "GET / HTTP/1.1" 500 135902 None
+26.09.2024 18-11-48 ERROR Internal Server Error: / (<class 'TypeError'>, TypeError("'dict' object is not callable"), <traceback object at 0x000002187584E980>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 27, in get_context_data
+    context['filterset'] = PostFilter(self.request.GET, request=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 17, in __init__
+    self.filters['post'].queryset = Post.objects.filter(user_id=kwargs('request'))
+TypeError: 'dict' object is not callable
+26.09.2024 18-11-48 ERROR "GET / HTTP/1.1" 500 94565 None
+26.09.2024 18-11-54 ERROR Internal Server Error: / (<class 'TypeError'>, TypeError("'dict' object is not callable"), <traceback object at 0x0000021875683C40>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 27, in get_context_data
+    context['filterset'] = PostFilter(self.request.GET, request=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 17, in __init__
+    self.filters['post'].queryset = Post.objects.filter(user_id=kwargs('request'))
+TypeError: 'dict' object is not callable
+26.09.2024 18-11-54 ERROR "GET / HTTP/1.1" 500 94642 None
+26.09.2024 18-11-57 ERROR Internal Server Error: / (<class 'django.core.exceptions.FieldError'>, FieldError("Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted."), <traceback object at 0x0000022FD601E780>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 26, in get_context_data
+    queryset = Comment.objects.filter(post__user_id=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1313, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted.
+26.09.2024 18-11-57 ERROR "GET / HTTP/1.1" 500 135902 None
+26.09.2024 18-11-58 ERROR Internal Server Error: / (<class 'django.core.exceptions.FieldError'>, FieldError("Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted."), <traceback object at 0x0000022FD5F001C0>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 26, in get_context_data
+    queryset = Comment.objects.filter(post__user_id=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1313, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted.
+26.09.2024 18-11-58 ERROR "GET / HTTP/1.1" 500 135902 None
+26.09.2024 18-31-01 INFO "GET /admin/auth/group/ HTTP/1.1" 200 13214 None
+26.09.2024 18-31-01 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-31-02 INFO "GET /admin/auth/group/1/change/ HTTP/1.1" 200 19823 None
+26.09.2024 18-31-02 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-31-05 INFO "GET /admin/auth/group/ HTTP/1.1" 200 13214 None
+26.09.2024 18-31-05 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-31-06 INFO "GET /admin/auth/group/2/change/ HTTP/1.1" 200 19845 None
+26.09.2024 18-31-06 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-31-15 INFO "GET /admin/auth/user/ HTTP/1.1" 200 19877 None
+26.09.2024 18-31-15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-31-17 INFO "GET /admin/auth/group/ HTTP/1.1" 200 13214 None
+26.09.2024 18-31-17 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-31-18 INFO "GET /admin/auth/group/1/change/ HTTP/1.1" 200 19823 None
+26.09.2024 18-31-18 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-31-32 INFO "POST /admin/auth/group/1/change/ HTTP/1.1" 302 0 None
+26.09.2024 18-31-32 INFO "GET /admin/auth/group/ HTTP/1.1" 200 13410 None
+26.09.2024 18-31-32 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-31-33 INFO "GET /admin/auth/group/2/change/ HTTP/1.1" 200 19845 None
+26.09.2024 18-31-33 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-31-36 INFO "GET /admin/auth/group/ HTTP/1.1" 200 13214 None
+26.09.2024 18-31-36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-31-37 INFO "GET /admin/auth/group/1/change/ HTTP/1.1" 200 19841 None
+26.09.2024 18-31-37 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-31-39 INFO "GET /admin/auth/group/ HTTP/1.1" 200 13214 None
+26.09.2024 18-31-39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-34-32 INFO "GET /admin/news/category/ HTTP/1.1" 200 14667 None
+26.09.2024 18-34-32 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-34-34 INFO "GET /admin/flatpages/flatpage/ HTTP/1.1" 200 12648 None
+26.09.2024 18-34-34 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-34-49 INFO "GET /admin/auth/user/ HTTP/1.1" 200 19877 None
+26.09.2024 18-34-49 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-34-56 INFO "GET /admin/auth/user/9/change/ HTTP/1.1" 200 29057 None
+26.09.2024 18-34-56 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-35-01 INFO "GET /admin/auth/user/9/delete/ HTTP/1.1" 200 11887 None
+26.09.2024 18-35-02 INFO "POST /admin/auth/user/9/delete/ HTTP/1.1" 302 0 None
+26.09.2024 18-35-02 INFO "GET /admin/auth/user/ HTTP/1.1" 200 19623 None
+26.09.2024 18-35-02 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-35-14 ERROR Internal Server Error: / (<class 'django.core.exceptions.FieldError'>, FieldError("Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted."), <traceback object at 0x0000022FD62AA740>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 26, in get_context_data
+    queryset = Comment.objects.filter(post__user_id=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1313, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'user_id' for ForeignKey or join on the field not permitted.
+26.09.2024 18-35-14 ERROR "GET / HTTP/1.1" 500 135902 None
+26.09.2024 18-35-18 INFO "POST /admin/logout/ HTTP/1.1" 200 3576 None
+26.09.2024 18-35-21 INFO "GET / HTTP/1.1" 302 0 None
+26.09.2024 18-35-21 INFO "GET /accounts/login/?next=/ HTTP/1.1" 200 1714 None
+26.09.2024 18-35-30 INFO "GET /accounts/password/reset/ HTTP/1.1" 200 892 None
+26.09.2024 18-35-39 INFO "GET /accounts/google/login/?process=login&next=%2F HTTP/1.1" 200 453 None
+26.09.2024 18-35-41 INFO "GET /accounts/yandex/login/?process=login&next=%2F HTTP/1.1" 200 453 None
+26.09.2024 18-35-43 INFO "GET /accounts/password/reset/ HTTP/1.1" 200 892 None
+26.09.2024 18-35-46 INFO "GET /accounts/signup/?next=%2F HTTP/1.1" 200 1196 None
+26.09.2024 18-35-56 INFO "POST /accounts/signup/ HTTP/1.1" 302 0 None
+26.09.2024 18-35-56 INFO "GET /accounts/confirm-email/ HTTP/1.1" 200 502 None
+26.09.2024 18-36-16 INFO "GET /accounts/confirm-email/Nw:1stqX5:emeYuy7Qt1oiXpmKhEl0CFvj3SlRXf3xof2JeJNqpn4/ HTTP/1.1" 200 632 None
+26.09.2024 18-36-17 WARNING Not Found: /favicon.ico None
+26.09.2024 18-36-17 WARNING "GET /favicon.ico HTTP/1.1" 404 2685 None
+26.09.2024 18-37-06 INFO "GET / HTTP/1.1" 302 0 None
+26.09.2024 18-37-06 INFO "GET /accounts/login/?next=/ HTTP/1.1" 200 1714 None
+26.09.2024 18-37-11 INFO "GET /admin/news/post/10/change/ HTTP/1.1" 302 0 None
+26.09.2024 18-37-11 INFO "GET /admin/login/?next=/admin/news/post/10/change/ HTTP/1.1" 200 4376 None
+26.09.2024 18-37-13 INFO "POST /admin/login/?next=/admin/news/post/10/change/ HTTP/1.1" 302 0 None
+26.09.2024 18-37-13 INFO "GET /admin/news/post/10/change/ HTTP/1.1" 200 15451 None
+26.09.2024 18-37-13 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+26.09.2024 18-37-15 INFO "GET /accounts/login/?next=/ HTTP/1.1" 302 0 None
+26.09.2024 18-37-15 ERROR Internal Server Error: / (<class 'TypeError'>, TypeError("'dict' object is not callable"), <traceback object at 0x0000025CC3416A40>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 27, in get_context_data
+    context['filterset'] = PostFilter(self.request.GET, request=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 17, in __init__
+    self.filters['post'].queryset = Post.objects.filter(user_id=kwargs('request'))
+TypeError: 'dict' object is not callable
+26.09.2024 18-37-15 ERROR "GET / HTTP/1.1" 500 94825 None
+26.09.2024 18-37-35 ERROR Internal Server Error: / (<class 'TypeError'>, TypeError('get_context_data() takes 1 positional argument but 2 were given'), <traceback object at 0x000001A0C5188FC0>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 25, in get_context_data
+    context = super().get_context_data(self,**kwargs)
+TypeError: get_context_data() takes 1 positional argument but 2 were given
+26.09.2024 18-37-35 ERROR "GET / HTTP/1.1" 500 90629 None
+26.09.2024 18-37-43 ERROR Internal Server Error: / (<class 'TypeError'>, TypeError('get_context_data() takes 1 positional argument but 2 were given'), <traceback object at 0x000001A0C4FC6D80>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 25, in get_context_data
+    context = super().get_context_data(**kwargs)
+TypeError: get_context_data() takes 1 positional argument but 2 were given
+26.09.2024 18-37-43 ERROR "GET / HTTP/1.1" 500 90619 None
+26.09.2024 18-37-45 ERROR Internal Server Error: / (<class 'TypeError'>, TypeError("'dict' object is not callable"), <traceback object at 0x00000261144A2E80>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 27, in get_context_data
+    context['filterset'] = PostFilter(self.request.GET, request=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 17, in __init__
+    self.filters['post'].queryset = Post.objects.filter(user_id=kwargs('request'))
+TypeError: 'dict' object is not callable
+26.09.2024 18-37-45 ERROR "GET / HTTP/1.1" 500 94825 None
+26.09.2024 19-08-10 ERROR Internal Server Error: / (<class 'AttributeError'>, AttributeError("'IndexView' object has no attribute 'filterset'"), <traceback object at 0x000001FFF82A4840>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 33, in get_context_data
+    context['filterset'] = self.filterset
+AttributeError: 'IndexView' object has no attribute 'filterset'
+26.09.2024 19-08-10 ERROR "GET / HTTP/1.1" 500 90545 None
+26.09.2024 19-10-52 ERROR Internal Server Error: / (<class 'AttributeError'>, AttributeError("'IndexView' object has no attribute 'filterset'"), <traceback object at 0x000001F7B0DC1580>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 35, in get_context_data
+    context['filterset'] = self.filterset
+AttributeError: 'IndexView' object has no attribute 'filterset'
+26.09.2024 19-10-52 ERROR "GET / HTTP/1.1" 500 90545 None
+26.09.2024 19-12-39 ERROR Internal Server Error: / (<class 'TypeError'>, TypeError("'dict' object is not callable"), <traceback object at 0x000001C9A98FC480>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 27, in get_context_data
+    context['filterset'] = PostFilter(self.request.GET, queryset, request=self.request.user.id)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 17, in __init__
+    self.filters['post'].queryset = Post.objects.filter(user_id=kwargs('request'))
+TypeError: 'dict' object is not callable
+26.09.2024 19-12-39 ERROR "GET / HTTP/1.1" 500 94865 None
+26.09.2024 19-16-27 ERROR Internal Server Error: / (<class 'AttributeError'>, AttributeError("'IndexView' object has no attribute 'filterset'"), <traceback object at 0x000001E51D50EB80>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 33, in get_context_data
+    context['filterset'] = self.filterset
+AttributeError: 'IndexView' object has no attribute 'filterset'
+26.09.2024 19-16-27 ERROR "GET / HTTP/1.1" 500 90541 None
+26.09.2024 19-17-24 ERROR Internal Server Error: / (<class 'AttributeError'>, AttributeError("'IndexView' object has no attribute 'filterset'"), <traceback object at 0x0000021EC5D9BE80>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 35, in get_context_data
+    context['filterset'] = self.filterset
+AttributeError: 'IndexView' object has no attribute 'filterset'
+26.09.2024 19-17-24 ERROR "GET / HTTP/1.1" 500 90541 None
+26.09.2024 19-30-02 ERROR Internal Server Error: / (<class 'AttributeError'>, AttributeError("'IndexView' object has no attribute 'filterset'"), <traceback object at 0x0000029437A64400>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 35, in get_context_data
+    context['filterset'] = self.filterset
+AttributeError: 'IndexView' object has no attribute 'filterset'
+26.09.2024 19-30-02 ERROR "GET / HTTP/1.1" 500 90543 None
+26.09.2024 19-30-03 ERROR Internal Server Error: / (<class 'AttributeError'>, AttributeError("'IndexView' object has no attribute 'filterset'"), <traceback object at 0x0000029437902E80>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 35, in get_context_data
+    context['filterset'] = self.filterset
+AttributeError: 'IndexView' object has no attribute 'filterset'
+26.09.2024 19-30-03 ERROR "GET / HTTP/1.1" 500 90543 None
+26.09.2024 19-30-04 ERROR Internal Server Error: / (<class 'AttributeError'>, AttributeError("'IndexView' object has no attribute 'filterset'"), <traceback object at 0x00000294379DAD00>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 35, in get_context_data
+    context['filterset'] = self.filterset
+AttributeError: 'IndexView' object has no attribute 'filterset'
+26.09.2024 19-30-04 ERROR "GET / HTTP/1.1" 500 90543 None
+26.09.2024 19-30-05 ERROR Internal Server Error: / (<class 'AttributeError'>, AttributeError("'IndexView' object has no attribute 'filterset'"), <traceback object at 0x00000294379170C0>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 35, in get_context_data
+    context['filterset'] = self.filterset
+AttributeError: 'IndexView' object has no attribute 'filterset'
+26.09.2024 19-30-05 ERROR "GET / HTTP/1.1" 500 90543 None
+26.09.2024 19-30-55 ERROR Internal Server Error: / (<class 'AttributeError'>, AttributeError("'IndexView' object has no attribute 'filterset'"), <traceback object at 0x0000017556FA9780>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 35, in get_context_data
+    context['filterset'] = self.filterset
+AttributeError: 'IndexView' object has no attribute 'filterset'
+26.09.2024 19-30-55 ERROR "GET / HTTP/1.1" 500 90275 None
+26.09.2024 19-30-56 ERROR Internal Server Error: / (<class 'AttributeError'>, AttributeError("'IndexView' object has no attribute 'filterset'"), <traceback object at 0x0000017556E45F80>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 35, in get_context_data
+    context['filterset'] = self.filterset
+AttributeError: 'IndexView' object has no attribute 'filterset'
+26.09.2024 19-30-57 ERROR "GET / HTTP/1.1" 500 90275 None
+26.09.2024 19-31-31 ERROR Internal Server Error: / (<class 'AttributeError'>, AttributeError("'IndexView' object has no attribute 'filterset'"), <traceback object at 0x000001EAD7552B00>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\protect\views.py", line 35, in get_context_data
+    context['filterset'] = self.filterset
+AttributeError: 'IndexView' object has no attribute 'filterset'
+26.09.2024 19-31-31 ERROR "GET / HTTP/1.1" 500 90138 None
+26.09.2024 19-31-42 INFO "GET /admin/ HTTP/1.1" 200 15245 None
+26.09.2024 19-31-48 WARNING Not Found: /post/news/create/ None
+26.09.2024 19-31-48 WARNING "GET /post/news/create/ HTTP/1.1" 404 4127 None
+26.09.2024 19-31-56 INFO "GET /post/post/ HTTP/1.1" 200 2830 None
+26.09.2024 19-31-59 INFO "GET /post/categories/1/ HTTP/1.1" 200 3280 None
+26.09.2024 19-32-01 INFO "GET /post/categories/3/ HTTP/1.1" 200 3498 None
+26.09.2024 19-32-02 INFO "GET /post/categories/4/ HTTP/1.1" 200 3320 None
+26.09.2024 19-32-04 INFO "GET /post/categories/4/ HTTP/1.1" 200 3320 None
+26.09.2024 19-32-04 INFO "GET /post/categories/3/ HTTP/1.1" 200 3498 None
+26.09.2024 19-32-05 INFO "GET /post/categories/4/ HTTP/1.1" 200 3320 None
+26.09.2024 19-32-06 INFO "GET /post/categories/4/ HTTP/1.1" 200 3320 None
+26.09.2024 19-32-07 INFO "GET /post/categories/1/ HTTP/1.1" 200 3280 None
+26.09.2024 19-32-08 INFO "GET /post/categories/2/ HTTP/1.1" 200 3502 None
+26.09.2024 19-32-08 INFO "GET /post/categories/3/ HTTP/1.1" 200 3498 None
+26.09.2024 19-32-14 INFO "GET /post/post/ HTTP/1.1" 200 2830 None

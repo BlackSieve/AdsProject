@@ -259,7 +259,7 @@ LOGGING = {
             'formatter': 'general_log'
         },
         'errors': {
-            'level': 'ERROR',
+            'level': 'INFO',
             'class': 'logging.FileHandler',
             'filename': 'logs/errors.log',
             'formatter': 'errors_log'
@@ -280,27 +280,27 @@ LOGGING = {
     'loggers': {
         'django': {
             'handlers': ['console', 'console_warning', 'console_error', 'general'],
-            'level':'DEBUG',
+            'level':'INFO',
             'propagate': True
         },
         'django.request': {
             'handlers': ['errors', 'mail_admin'],
-            'level':'ERROR',
+            'level':'INFO',
             'propagate': True
         },
         'django.server': {
             'handlers': ['errors', 'mail_admin'],
-            'level':'ERROR',
+            'level':'INFO',
             'propagate': True
         },
         'django.template': {
             'handlers': ['errors'],
-            'level':'ERROR',
+            'level':'INFO',
             'propagate': True
         },
         'django.db.backend':{
             'handlers':['errors'],
-            'level':'ERROR',
+            'level':'INFO',
             'propagate':True
         },
         'django.security':{

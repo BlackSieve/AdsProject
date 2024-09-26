@@ -10,7 +10,7 @@ Post
         <p class="text-center"><a href="{% url 'subscribe' category.id %}" class="btn btn-secondary btn-sm" style="margin-top: 10px">Подписаться</a></p>
     {% endif %}
 
-<h1>Все новости в категории {{ category }}</h1>
+<h1>Все объявления в категории {{ category }}</h1>
 <h3>{{ time_now|date:'M d Y' }}</h3>
 
 <form action="" method="get">
@@ -22,7 +22,7 @@ Post
         <tr>
             <td> Дата публикации </td>
             <td> Заголовок </td>
-            <td> Новость </td>
+            <td> Объявление </td>
             <td> Категория </td>
         </tr>
         {% for post in category_news_list %}

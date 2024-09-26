@@ -7,6 +7,6 @@ class PostFilter(FilterSet):
         model = Post
         fields = {
            'title': ['icontains'],
-            'author': ['exact'],
-            'date': ['exact']
+            #'author': ['exact'],
+            #'date': ['exact']
         }

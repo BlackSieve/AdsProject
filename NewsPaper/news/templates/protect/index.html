@@ -3,13 +3,22 @@
 {% block content %}
 <h2>Страница авторизованного пользователя {{request.user.username}}</h2>
 <div> Здесь может содержаться персональная информация для каждого пользователя </div>
-
+<hr>
+<form action="" method="get">
+    {{filterset.form}}
+    <input type="submit" value="Найти">
+</form>
+<button><a href="/">Сбросить фильтр</a> </button>
+<hr>
+<h4>Все отклики на выбранное объявление</h4>
+{%if comments%}
+{%for comment in comments%}
+<p>{{comment.context}}</p>
+{%endfor%}
+{%endif%}
 <form action="{% url 'logout' %}" method="post">
     {% csrf_token %}
     <input type="submit" value="Выйти">
 </form>
-{% if is_not_authors %}
-<button> <a href="/sign/upgrade/"> Хочу стать автором!</a> </button>
-{% endif %}
-<button> <a href="{% url 'post-list' %}"> Новости</a> </button>
+<button> <a href="{% url 'post-list' %}"> Доска объявлений</a> </button>
 {% endblock %}
