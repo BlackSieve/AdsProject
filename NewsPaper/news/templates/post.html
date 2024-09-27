@@ -11,12 +11,13 @@ Post
 
 <table>
         <tr>
-            <td> Дата публикации </td>
+            <td> Автор </td>
             <td> Заголовок </td>
             <td> Объявление </td>
             <td> Категория </td>
         </tr>
         <tr>
+            <td>{{ post.author.user.username }}</td>
             <td>{{ post.date|date:'d M Y' }}</td>
             <td>{{ post.title|censor }}</td>
             <td>{{ post.text|truncatechars:20|censor}}</td>

@@ -51,8 +51,8 @@ class PostCreate(PermissionRequiredMixin,CreateView):
 
     def form_valid(self, form):
         post = form.save(commit=False)
-        post.author = self.request.user
-        if self.request.path == 'news/articles/create/':
+        post.author = self.request.user.author
+        if self.request.path == '/news/articles/create/':
             post.post_news = 'SE'
         return super().form_valid(form)
 
@@ -119,3 +119,6 @@ def subscribe(request, pk):
 
     massage = "Вы успешно подписались на рассылку объявлений по категории"
     return render(request,'news/subscribe.html', {'category':category, 'massage':massage})
+
+
+
