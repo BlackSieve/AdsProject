@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView,ListView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django_filters import FilterSet
 from news.models import Comment, Post
@@ -14,10 +14,10 @@ class PostFilter(FilterSet):
 
     def __init__(self, *args, **kwargs):
         super(PostFilter, self).__init__(*args, **kwargs)
-        self.filters['post'].queryset = Post.objects.filter(user_id=kwargs('request'))
+        self.filters['post'].queryset = Post.objects.filter(author__user_id=kwargs.get('request'))
 
 
-class IndexView(LoginRequiredMixin, TemplateView):
+class IndexView(LoginRequiredMixin, ListView):
     model = Comment
     template_name = 'protect/index.html'
     context_object_name = 'comments'
