@@ -10,10 +10,10 @@
 </form>
 <button><a href="/">Сбросить фильтр</a> </button>
 <hr>
-<h4>Все отклики на выбранное объявление</h4>
 {%if comments%}
+<h4>Все отклики на выбранное объявление</h4>
 {%for comment in comments%}
-<p>{{comment.context}}</p>
+<p>{{comment.text}}</p>
 {%endfor%}
 {%endif%}
 <form action="{% url 'logout' %}" method="post">

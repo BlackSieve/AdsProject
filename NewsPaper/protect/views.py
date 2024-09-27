@@ -1,11 +1,12 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView,ListView
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django_filters import FilterSet
+from django_filters import FilterSet,ModelChoiceFilter
 from news.models import Comment, Post
 
 
 class PostFilter(FilterSet):
+    post = ModelChoiceFilter(queryset=Post.objects.all(),label='Объявление',empty_label = 'Поиск по всем объявлением')
     class Meta:
         model = Comment
         fields = [
@@ -33,3 +34,4 @@ class IndexView(LoginRequiredMixin, ListView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['filterset'] = self.filterset
+        return context

@@ -1158,3 +1158,87 @@ AttributeError: 'IndexView' object has no attribute 'filterset'
 26.09.2024 19-50-37 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
 26.09.2024 19-50-38 INFO "GET /admin/news/post/12/change/ HTTP/1.1" 200 15425 None
 26.09.2024 19-50-38 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+27.09.2024 11-46-23 INFO "GET / HTTP/1.1" 200 988 None
+27.09.2024 11-46-24 WARNING Not Found: /favicon.ico None
+27.09.2024 11-46-24 WARNING "GET /favicon.ico HTTP/1.1" 404 2685 None
+27.09.2024 11-46-26 INFO "GET /? HTTP/1.1" 200 988 None
+27.09.2024 11-46-31 INFO "GET / HTTP/1.1" 200 988 None
+27.09.2024 11-46-32 INFO "GET /? HTTP/1.1" 200 988 None
+27.09.2024 11-46-34 INFO "GET / HTTP/1.1" 200 988 None
+27.09.2024 11-46-36 INFO "GET /? HTTP/1.1" 200 988 None
+27.09.2024 11-46-47 INFO "POST /sign/logout/ HTTP/1.1" 200 256 None
+27.09.2024 11-46-48 INFO "GET / HTTP/1.1" 302 0 None
+27.09.2024 11-46-48 INFO "GET /accounts/login/?next=/ HTTP/1.1" 200 1714 None
+27.09.2024 11-46-54 INFO "POST /accounts/login/ HTTP/1.1" 200 1864 None
+27.09.2024 11-47-02 INFO "GET /admin/ HTTP/1.1" 302 0 None
+27.09.2024 11-47-02 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181 None
+27.09.2024 11-47-05 INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0 None
+27.09.2024 11-47-05 INFO "GET /admin/ HTTP/1.1" 200 15281 None
+27.09.2024 11-47-14 INFO "GET /admin/auth/user/ HTTP/1.1" 200 19879 None
+27.09.2024 11-47-14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+27.09.2024 11-47-17 INFO "GET /admin/auth/user/14/change/ HTTP/1.1" 200 29024 None
+27.09.2024 11-47-17 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+27.09.2024 11-47-24 INFO "GET /admin/auth/user/ HTTP/1.1" 200 19879 None
+27.09.2024 11-47-24 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+27.09.2024 11-47-25 INFO "GET /admin/auth/user/14/change/ HTTP/1.1" 200 29024 None
+27.09.2024 11-47-25 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+27.09.2024 11-47-33 INFO "GET /admin/auth/user/14/delete/ HTTP/1.1" 200 11770 None
+27.09.2024 11-47-34 INFO "POST /admin/auth/user/14/delete/ HTTP/1.1" 302 0 None
+27.09.2024 11-47-34 INFO "GET /admin/auth/user/ HTTP/1.1" 200 19623 None
+27.09.2024 11-47-34 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+27.09.2024 11-47-42 INFO "GET / HTTP/1.1" 200 988 None
+27.09.2024 11-47-43 INFO "GET / HTTP/1.1" 200 988 None
+27.09.2024 11-47-46 INFO "POST /sign/logout/ HTTP/1.1" 200 256 None
+27.09.2024 11-47-46 INFO "GET / HTTP/1.1" 302 0 None
+27.09.2024 11-47-46 INFO "GET /accounts/login/?next=/ HTTP/1.1" 200 1714 None
+27.09.2024 11-47-49 INFO "GET /accounts/signup/?next=%2F HTTP/1.1" 200 1196 None
+27.09.2024 11-48-10 INFO "POST /accounts/signup/ HTTP/1.1" 200 1335 None
+27.09.2024 11-48-27 INFO "POST /accounts/signup/ HTTP/1.1" 200 1335 None
+27.09.2024 11-48-41 INFO "POST /accounts/signup/ HTTP/1.1" 200 1330 None
+27.09.2024 11-49-00 INFO "POST /accounts/signup/ HTTP/1.1" 302 0 None
+27.09.2024 11-49-00 INFO "GET /accounts/confirm-email/ HTTP/1.1" 200 502 None
+27.09.2024 11-49-20 INFO "GET /accounts/confirm-email/OA:1su6eq:lOXU4-vJLVKzIdo5p6LuSjO_4KPs_iF38LMzePtRCMQ/ HTTP/1.1" 200 632 None
+27.09.2024 11-49-20 WARNING Not Found: /favicon.ico None
+27.09.2024 11-49-20 WARNING "GET /favicon.ico HTTP/1.1" 404 2685 None
+27.09.2024 11-49-23 INFO "POST /accounts/confirm-email/OA:1su6fA:MsDaer5gdewCzaKjb77X1fIrnWoDIks26J9stQH9wRU/ HTTP/1.1" 302 0 None
+27.09.2024 11-49-23 INFO "GET /accounts/login/ HTTP/1.1" 200 1636 None
+27.09.2024 11-49-35 INFO "POST /accounts/login/ HTTP/1.1" 302 0 None
+27.09.2024 11-49-35 INFO "GET / HTTP/1.1" 200 996 None
+27.09.2024 11-50-06 INFO "GET / HTTP/1.1" 302 0 None
+27.09.2024 11-50-06 INFO "GET /accounts/login/?next=/ HTTP/1.1" 200 1714 None
+27.09.2024 11-50-16 INFO "POST /accounts/login/ HTTP/1.1" 302 0 None
+27.09.2024 11-50-16 INFO "GET / HTTP/1.1" 200 996 None
+27.09.2024 11-50-23 INFO "GET /post/post/ HTTP/1.1" 200 3038 None
+27.09.2024 11-50-33 WARNING Forbidden (Permission denied): /post/ads/1/delete/ (<class 'django.core.exceptions.PermissionDenied'>, PermissionDenied(''), <traceback object at 0x00000159E5654A40>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+27.09.2024 11-50-33 WARNING "GET /post/ads/1/delete/ HTTP/1.1" 403 135 None
+27.09.2024 11-50-40 INFO "GET /post/ads/create/ HTTP/1.1" 200 3209 None
+27.09.2024 11-51-09 INFO "POST /post/ads/create/ HTTP/1.1" 302 0 None
+27.09.2024 11-51-09 INFO "GET /post/post/13/ HTTP/1.1" 200 2868 None
+27.09.2024 11-51-19 INFO "GET /post/post/ HTTP/1.1" 200 3382 None
+27.09.2024 11-51-32 INFO "GET / HTTP/1.1" 200 996 None
+27.09.2024 11-51-33 INFO "GET /? HTTP/1.1" 200 996 None
+27.09.2024 15-46-35 INFO "GET / HTTP/1.1" 302 0 None
+27.09.2024 15-46-35 INFO "GET /accounts/login/?next=/ HTTP/1.1" 200 1714 None
+27.09.2024 15-46-35 WARNING Not Found: /favicon.ico None
+27.09.2024 15-46-35 WARNING "GET /favicon.ico HTTP/1.1" 404 2685 None
+27.09.2024 15-46-50 INFO "GET /admin/ HTTP/1.1" 302 0 None
+27.09.2024 15-46-50 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181 None
+27.09.2024 15-46-53 INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0 None
+27.09.2024 15-46-53 INFO "GET /admin/ HTTP/1.1" 200 15172 None
+27.09.2024 15-47-02 INFO "GET /post/post/ HTTP/1.1" 200 3382 None
+27.09.2024 15-47-08 INFO "GET /post/ads/create/ HTTP/1.1" 200 3209 None
+27.09.2024 15-49-24 INFO "GET / HTTP/1.1" 200 1202 None
+27.09.2024 15-56-09 INFO "GET / HTTP/1.1" 200 1218 None
+27.09.2024 15-59-16 INFO "GET / HTTP/1.1" 200 1180 None
