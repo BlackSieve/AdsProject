@@ -8,6 +8,8 @@ from string import hexdigits
 
 from django.core.mail import send_mail
 
+from news.models import Author
+
 
 class BaseRegisterForm(UserCreationForm):
     email = forms.EmailField(label='Email')
@@ -25,12 +27,11 @@ class BaseRegisterForm(UserCreationForm):
 
 class CommonSignupForm(SignupForm):
     def save(self, request):
-        # user = super(CommonSignupForm, self).save(request)
-        # common_group = Group.objects.get(name = 'common')
-        # common_group.user_set.add(user)
-        # return user
-        user = super(CommonSignupForm,self).save(request)
-        user.is_activate = False
+        user = super(CommonSignupForm, self).save(request)
+        common_group = Group.objects.get(name = 'common')
+        common_group.user_set.add(user)
+        Author.objects.create(user=user)
+        user.is_active = False
         code = ''.join(random.sample(hexdigits, 5))
         user.code = code
         user.save()

@@ -1389,3 +1389,406 @@ django.core.exceptions.PermissionDenied
 28.09.2024 14-48-58 INFO "POST /admin/account/emailaddress/1/change/ HTTP/1.1" 302 0 None
 28.09.2024 14-48-58 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 200 14485 None
 28.09.2024 14-48-58 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-08-46 INFO "GET / HTTP/1.1" 200 1180 None
+28.09.2024 19-08-49 INFO "POST /sign/logout/ HTTP/1.1" 200 256 None
+28.09.2024 19-08-50 INFO "GET / HTTP/1.1" 302 0 None
+28.09.2024 19-08-50 INFO "GET /accounts/login/?next=/ HTTP/1.1" 200 1714 None
+28.09.2024 19-08-53 INFO "POST /accounts/login/ HTTP/1.1" 200 1864 None
+28.09.2024 19-09-07 INFO "POST /accounts/login/ HTTP/1.1" 302 0 None
+28.09.2024 19-09-08 INFO "GET / HTTP/1.1" 200 1188 None
+28.09.2024 19-09-14 INFO "GET /post/post/ HTTP/1.1" 200 2061 None
+28.09.2024 19-09-19 WARNING Forbidden (Permission denied): /post/ads/create/ (<class 'django.core.exceptions.PermissionDenied'>, PermissionDenied(''), <traceback object at 0x000001A6D9F5E180>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+28.09.2024 19-09-19 WARNING "GET /post/ads/create/ HTTP/1.1" 403 135 None
+28.09.2024 19-09-30 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 302 0 None
+28.09.2024 19-09-30 INFO "GET /admin/login/?next=/admin/account/emailaddress/ HTTP/1.1" 200 3897 None
+28.09.2024 19-09-32 INFO "POST /admin/login/?next=/admin/account/emailaddress/ HTTP/1.1" 302 0 None
+28.09.2024 19-09-32 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 200 14254 None
+28.09.2024 19-09-32 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-09-35 INFO "GET /admin/account/emailaddress/1/change/ HTTP/1.1" 200 14052 None
+28.09.2024 19-09-35 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-09-38 INFO "GET /admin/auth/group/ HTTP/1.1" 200 12731 None
+28.09.2024 19-09-38 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-09-39 INFO "GET /admin/auth/group/1/change/ HTTP/1.1" 200 19575 None
+28.09.2024 19-09-39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-09-44 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 200 14254 None
+28.09.2024 19-09-44 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-09-57 INFO "GET /accounts/confirm-email/ HTTP/1.1" 200 502 None
+28.09.2024 19-09-58 INFO "GET /accounts/signup/?next=%2F HTTP/1.1" 302 0 None
+28.09.2024 19-09-58 INFO "GET / HTTP/1.1" 200 1180 None
+28.09.2024 19-10-04 INFO "GET /post/post/ HTTP/1.1" 200 2061 None
+28.09.2024 19-10-08 INFO "GET /post/ads/create/ HTTP/1.1" 200 2946 None
+28.09.2024 19-10-13 INFO "GET /post/ads/create/ HTTP/1.1" 200 2946 None
+28.09.2024 19-10-20 INFO "GET /admin/account/emailaddress/1/change/ HTTP/1.1" 200 14052 None
+28.09.2024 19-10-20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-10-26 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 200 14254 None
+28.09.2024 19-10-26 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-10-27 INFO "GET /admin/auth/group/ HTTP/1.1" 200 12731 None
+28.09.2024 19-10-27 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-10-30 INFO "GET /admin/auth/group/1/change/ HTTP/1.1" 200 19575 None
+28.09.2024 19-10-30 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-11-43 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 200 14254 None
+28.09.2024 19-11-43 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-11-47 INFO "GET /admin/account/emailaddress/1/change/ HTTP/1.1" 200 14052 None
+28.09.2024 19-11-47 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-11-49 INFO "GET /admin/account/emailaddress/1/delete/ HTTP/1.1" 200 11321 None
+28.09.2024 19-11-50 INFO "POST /admin/account/emailaddress/1/delete/ HTTP/1.1" 302 0 None
+28.09.2024 19-11-50 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 200 12514 None
+28.09.2024 19-11-50 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-11-52 INFO "GET / HTTP/1.1" 200 1180 None
+28.09.2024 19-11-54 INFO "POST /sign/logout/ HTTP/1.1" 200 256 None
+28.09.2024 19-11-54 INFO "GET / HTTP/1.1" 302 0 None
+28.09.2024 19-11-54 INFO "GET /accounts/login/?next=/ HTTP/1.1" 200 1714 None
+28.09.2024 19-11-57 INFO "GET /accounts/signup/?next=%2F HTTP/1.1" 200 1196 None
+28.09.2024 19-11-59 INFO "GET /accounts/login/?next=%2F HTTP/1.1" 200 1714 None
+28.09.2024 19-12-01 INFO "GET /accounts/signup/?next=%2F HTTP/1.1" 200 1196 None
+28.09.2024 19-12-23 INFO "POST /accounts/signup/ HTTP/1.1" 200 1321 None
+28.09.2024 19-12-30 INFO "POST /accounts/signup/ HTTP/1.1" 200 1321 None
+28.09.2024 19-12-32 INFO "GET /accounts/login/?next=%2F HTTP/1.1" 200 1714 None
+28.09.2024 19-12-36 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 302 0 None
+28.09.2024 19-12-36 INFO "GET /admin/login/?next=/admin/account/emailaddress/ HTTP/1.1" 200 4223 None
+28.09.2024 19-12-38 INFO "POST /admin/login/?next=/admin/account/emailaddress/ HTTP/1.1" 302 0 None
+28.09.2024 19-12-38 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 200 12335 None
+28.09.2024 19-12-38 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-12-39 INFO "GET /admin/auth/group/ HTTP/1.1" 200 12731 None
+28.09.2024 19-12-39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-12-40 INFO "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 11651 None
+28.09.2024 19-12-40 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-12-41 INFO "GET /admin/django_apscheduler/djangojobexecution/ HTTP/1.1" 200 12849 None
+28.09.2024 19-12-41 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-12-43 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 200 12335 None
+28.09.2024 19-12-43 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-12-47 INFO "GET /accounts/signup/?next=%2F HTTP/1.1" 302 0 None
+28.09.2024 19-12-47 INFO "GET / HTTP/1.1" 200 1180 None
+28.09.2024 19-12-49 INFO "GET / HTTP/1.1" 200 1180 None
+28.09.2024 19-12-50 INFO "POST /sign/logout/ HTTP/1.1" 200 256 None
+28.09.2024 19-12-51 INFO "GET / HTTP/1.1" 302 0 None
+28.09.2024 19-12-51 INFO "GET /accounts/login/?next=/ HTTP/1.1" 200 1714 None
+28.09.2024 19-12-52 INFO "GET /accounts/signup/?next=%2F HTTP/1.1" 200 1196 None
+28.09.2024 19-13-13 INFO "POST /accounts/signup/ HTTP/1.1" 302 0 None
+28.09.2024 19-13-13 INFO "GET /accounts/inactive/ HTTP/1.1" 200 651 None
+28.09.2024 19-13-58 INFO "POST /post/confirm/ HTTP/1.1" 302 0 None
+28.09.2024 19-13-58 INFO "GET /accounts/login/ HTTP/1.1" 200 1636 None
+28.09.2024 19-14-04 INFO "POST /accounts/login/ HTTP/1.1" 302 0 None
+28.09.2024 19-14-04 INFO "GET / HTTP/1.1" 200 1184 None
+28.09.2024 19-14-06 INFO "GET /post/post/ HTTP/1.1" 200 2061 None
+28.09.2024 19-14-10 INFO "GET /post/ads/create/ HTTP/1.1" 200 2946 None
+28.09.2024 19-14-24 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 302 0 None
+28.09.2024 19-14-24 INFO "GET /admin/login/?next=/admin/account/emailaddress/ HTTP/1.1" 200 3889 None
+28.09.2024 19-14-26 INFO "POST /admin/login/?next=/admin/account/emailaddress/ HTTP/1.1" 302 0 None
+28.09.2024 19-14-26 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 200 14244 None
+28.09.2024 19-14-26 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-14-28 INFO "GET /admin/auth/group/ HTTP/1.1" 200 12731 None
+28.09.2024 19-14-29 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-14-30 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 200 14244 None
+28.09.2024 19-14-30 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-14-57 INFO "GET /admin/auth/group/ HTTP/1.1" 200 12731 None
+28.09.2024 19-14-57 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-14-58 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 200 14244 None
+28.09.2024 19-14-58 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 19-15-08 INFO "GET /post/post/ HTTP/1.1" 200 2061 None
+28.09.2024 19-15-15 INFO "GET /post/ads/create/ HTTP/1.1" 200 2946 None
+28.09.2024 19-15-33 ERROR Internal Server Error: /post/ads/create/ (<class 'protect.models.User.author.RelatedObjectDoesNotExist'>, RelatedObjectDoesNotExist('User has no author.'), <traceback object at 0x000001A6D9E7C140>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 109, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\news\views.py", line 54, in form_valid
+    post.author = self.request.user.author
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 492, in __get__
+    raise self.RelatedObjectDoesNotExist(
+protect.models.User.author.RelatedObjectDoesNotExist: User has no author.
+28.09.2024 19-15-33 ERROR "POST /post/ads/create/ HTTP/1.1" 500 105909 None
+28.09.2024 19-16-38 ERROR Internal Server Error: /post/ads/create/ (<class 'django.db.utils.IntegrityError'>, IntegrityError('NOT NULL constraint failed: news_post.author_id'), <traceback object at 0x000001D5F7D8FE00>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: news_post.author_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 109, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\news\views.py", line 57, in form_valid
+    return super().form_valid(form)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 135, in form_valid
+    self.object = form.save()
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\forms\models.py", line 542, in save
+    self.instance.save()
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: news_post.author_id
+28.09.2024 19-16-38 ERROR "POST /post/ads/create/ HTTP/1.1" 500 185976 None
+28.09.2024 19-16-48 ERROR Internal Server Error: /post/ads/create/ (<class 'protect.models.User.author.RelatedObjectDoesNotExist'>, RelatedObjectDoesNotExist('User has no author.'), <traceback object at 0x0000027B12333680>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 109, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\news\views.py", line 54, in form_valid
+    post.author = self.request.user.author
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 492, in __get__
+    raise self.RelatedObjectDoesNotExist(
+protect.models.User.author.RelatedObjectDoesNotExist: User has no author.
+28.09.2024 19-16-48 ERROR "POST /post/ads/create/ HTTP/1.1" 500 105909 None
+28.09.2024 19-20-13 ERROR Internal Server Error: /post/ads/create/ (<class 'AttributeError'>, AttributeError("'User' object has no attribute 'user'"), <traceback object at 0x000001DE31D7D400>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 109, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\news\views.py", line 54, in form_valid
+    post.author = self.request.user.user
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'user'
+28.09.2024 19-20-13 ERROR "POST /post/ads/create/ HTTP/1.1" 500 101292 None
+28.09.2024 19-20-27 ERROR Internal Server Error: /post/ads/create/ (<class 'ValueError'>, ValueError('Cannot assign "<SimpleLazyObject: <User: admin>>": "Post.author" must be a "Author" instance.'), <traceback object at 0x00000232BAE86B40>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 109, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\news\views.py", line 54, in form_valid
+    post.author = self.request.user
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <User: admin>>": "Post.author" must be a "Author" instance.
+28.09.2024 19-20-27 ERROR "POST /post/ads/create/ HTTP/1.1" 500 101992 None
+28.09.2024 19-22-38 ERROR Internal Server Error: /post/ads/create/ (<class 'django.db.utils.IntegrityError'>, IntegrityError('NOT NULL constraint failed: news_post.author_id'), <traceback object at 0x00000278AD40EA80>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: news_post.author_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 109, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 135, in form_valid
+    self.object = form.save()
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\forms\models.py", line 542, in save
+    self.instance.save()
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: news_post.author_id
+28.09.2024 19-22-38 ERROR "POST /post/ads/create/ HTTP/1.1" 500 181795 None
+28.09.2024 19-25-38 ERROR Internal Server Error: /post/ads/create/ (<class 'ValueError'>, ValueError('Cannot assign "<SimpleLazyObject: <User: admin>>": "Post.author" must be a "Author" instance.'), <traceback object at 0x00000210EA5A07C0>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 109, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+  File "C:\Users\ой\PycharmProjects\NewsProject\NewsPaper\news\views.py", line 54, in form_valid
+    post.author = self.request.user
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <User: admin>>": "Post.author" must be a "Author" instance.
+28.09.2024 19-25-38 ERROR "POST /post/ads/create/ HTTP/1.1" 500 101992 None
+28.09.2024 19-25-58 ERROR Internal Server Error: /post/ads/create/ (<class 'django.db.utils.IntegrityError'>, IntegrityError('NOT NULL constraint failed: news_post.author_id'), <traceback object at 0x000001F030EC81C0>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: news_post.author_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 109, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\edit.py", line 135, in form_valid
+    self.object = form.save()
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\forms\models.py", line 542, in save
+    self.instance.save()
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: news_post.author_id
+28.09.2024 19-25-58 ERROR "POST /post/ads/create/ HTTP/1.1" 500 181795 None

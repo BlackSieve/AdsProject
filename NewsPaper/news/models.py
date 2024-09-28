@@ -1,7 +1,5 @@
-
 from django.db import models
-from django.db.models import Sum
-from django.db.models.functions import Coalesce
+
 from django.urls import reverse
 
 from protect.models import User
@@ -20,31 +18,15 @@ class Author(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     rating = models.IntegerField(default=0)
 
-    # def update_rating(self):
-        # posts_rating = Post.objects.filter(author=self).aggregate(pr=Coalesce(Sum('rating'), 0))['pr']
-        # comments_rating = Comment.objects.filter(user=self.user).aggregate(cr=Coalesce(Sum('rating'), 0))['cr']
-        # posts_comment_rating = Comment.objects.filter(post__author=self).aggregate(pcr=Coalesce(Sum('rating'), 0))['pcr']
-        #
-        # print(posts_rating)
-        # print('_______________')
-        # print(comments_rating)
-        # print('_______________')
-        # print(posts_comment_rating)
-        #
-        # self.rating = posts_rating * 3 + comments_rating + posts_comment_rating
-        # self.save()
-
     def __str__(self):
         return self.user.username
 
 
 class Post (models.Model):
     news = "NW"
-    # section = "SE"
 
     POST_TYPES = [
         (news, "Объявление"),
-        # (section, "Пост")
     ]
     author = models.ForeignKey(Author, on_delete=models.CASCADE)
     news = models.CharField(max_length=2, choices=POST_TYPES, default=news)
