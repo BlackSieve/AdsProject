@@ -1792,3 +1792,15 @@ Traceback (most recent call last):
     return super().execute(query, params)
 django.db.utils.IntegrityError: NOT NULL constraint failed: news_post.author_id
 28.09.2024 19-25-58 ERROR "POST /post/ads/create/ HTTP/1.1" 500 181795 None
+28.09.2024 19-32-55 INFO "GET / HTTP/1.1" 200 1180 None
+28.09.2024 19-33-00 INFO "POST /sign/logout/ HTTP/1.1" 200 256 None
+28.09.2024 19-33-01 INFO "GET / HTTP/1.1" 302 0 None
+28.09.2024 19-33-01 INFO "GET /accounts/login/?next=/ HTTP/1.1" 200 1714 None
+28.09.2024 19-33-05 INFO "POST /accounts/login/ HTTP/1.1" 302 0 None
+28.09.2024 19-33-05 INFO "GET / HTTP/1.1" 200 1184 None
+28.09.2024 19-33-13 INFO "GET /post/post/ HTTP/1.1" 200 2061 None
+28.09.2024 19-33-19 INFO "GET /post/ads/create/ HTTP/1.1" 200 2946 None
+28.09.2024 19-33-38 INFO "POST /post/ads/create/ HTTP/1.1" 302 0 None
+28.09.2024 19-33-38 INFO "GET /post/post/1/ HTTP/1.1" 200 2289 None
+28.09.2024 19-33-45 INFO "GET / HTTP/1.1" 200 1257 None
+28.09.2024 19-33-48 INFO "GET /?post=1 HTTP/1.1" 200 1257 None
