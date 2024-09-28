@@ -1,8 +1,10 @@
-from django.contrib.auth.models import User
+
 from django.db import models
 from django.db.models import Sum
 from django.db.models.functions import Coalesce
 from django.urls import reverse
+
+from protect.models import User
 
 
 class Category (models.Model):

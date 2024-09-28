@@ -1242,3 +1242,150 @@ django.core.exceptions.PermissionDenied
 27.09.2024 15-49-24 INFO "GET / HTTP/1.1" 200 1202 None
 27.09.2024 15-56-09 INFO "GET / HTTP/1.1" 200 1218 None
 27.09.2024 15-59-16 INFO "GET / HTTP/1.1" 200 1180 None
+28.09.2024 13-28-40 INFO "GET / HTTP/1.1" 302 0 None
+28.09.2024 13-28-40 INFO "GET /accounts/login/?next=/ HTTP/1.1" 200 1714 None
+28.09.2024 13-28-40 WARNING Not Found: /favicon.ico None
+28.09.2024 13-28-40 WARNING "GET /favicon.ico HTTP/1.1" 404 2685 None
+28.09.2024 13-28-52 INFO "GET /admin/ HTTP/1.1" 302 0 None
+28.09.2024 13-28-52 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181 None
+28.09.2024 13-28-54 INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4342 None
+28.09.2024 13-32-40 INFO "GET / HTTP/1.1" 302 0 None
+28.09.2024 13-32-41 INFO "GET /accounts/login/?next=/ HTTP/1.1" 200 1714 None
+28.09.2024 13-32-41 WARNING Not Found: /favicon.ico None
+28.09.2024 13-32-41 WARNING "GET /favicon.ico HTTP/1.1" 404 2685 None
+28.09.2024 13-32-46 INFO "GET /admin/ HTTP/1.1" 302 0 None
+28.09.2024 13-32-46 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181 None
+28.09.2024 13-32-58 INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0 None
+28.09.2024 13-32-58 INFO "GET /admin/ HTTP/1.1" 200 11149 None
+28.09.2024 13-33-02 INFO "GET /admin/news/category/ HTTP/1.1" 200 11272 None
+28.09.2024 13-33-02 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-33-06 INFO "GET /admin/news/post/ HTTP/1.1" 200 11244 None
+28.09.2024 13-33-06 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-33-08 INFO "GET /admin/auth/group/ HTTP/1.1" 200 11590 None
+28.09.2024 13-33-08 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-33-16 INFO "GET /admin/auth/group/add/ HTTP/1.1" 200 19341 None
+28.09.2024 13-33-16 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-33-41 INFO "POST /admin/auth/group/add/ HTTP/1.1" 302 0 None
+28.09.2024 13-33-41 INFO "GET /admin/auth/group/ HTTP/1.1" 200 12923 None
+28.09.2024 13-33-41 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-33-42 INFO "GET /admin/auth/group/1/change/ HTTP/1.1" 200 19553 None
+28.09.2024 13-33-42 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-34-03 INFO "POST /admin/auth/group/1/change/ HTTP/1.1" 302 0 None
+28.09.2024 13-34-03 INFO "GET /admin/auth/group/ HTTP/1.1" 200 12927 None
+28.09.2024 13-34-03 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-34-09 INFO "GET /admin/news/category/ HTTP/1.1" 200 11272 None
+28.09.2024 13-34-09 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-34-11 INFO "GET /admin/news/category/add/ HTTP/1.1" 200 13000 None
+28.09.2024 13-34-11 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-34-18 INFO "GET /admin/news/post/ HTTP/1.1" 200 11244 None
+28.09.2024 13-34-18 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-34-19 INFO "GET /admin/news/category/ HTTP/1.1" 200 11272 None
+28.09.2024 13-34-19 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-34-25 INFO "GET /admin/news/category/add/ HTTP/1.1" 200 13000 None
+28.09.2024 13-34-25 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-35-26 INFO "POST /admin/news/category/add/ HTTP/1.1" 302 0 None
+28.09.2024 13-35-26 INFO "GET /admin/news/category/ HTTP/1.1" 200 12630 None
+28.09.2024 13-35-26 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-35-27 INFO "GET /admin/news/category/add/ HTTP/1.1" 200 13000 None
+28.09.2024 13-35-27 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-35-33 INFO "POST /admin/news/category/add/ HTTP/1.1" 302 0 None
+28.09.2024 13-35-33 INFO "GET /admin/news/category/ HTTP/1.1" 200 12837 None
+28.09.2024 13-35-33 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-35-38 INFO "GET /admin/news/category/add/ HTTP/1.1" 200 13000 None
+28.09.2024 13-35-38 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-35-40 INFO "POST /admin/news/category/add/ HTTP/1.1" 302 0 None
+28.09.2024 13-35-40 INFO "GET /admin/news/category/ HTTP/1.1" 200 13037 None
+28.09.2024 13-35-40 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-35-46 INFO "GET /admin/news/category/add/ HTTP/1.1" 200 13000 None
+28.09.2024 13-35-46 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-35-47 INFO "POST /admin/news/category/add/ HTTP/1.1" 302 0 None
+28.09.2024 13-35-47 INFO "GET /admin/news/category/ HTTP/1.1" 200 13265 None
+28.09.2024 13-35-47 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-35-53 INFO "GET /admin/news/category/add/ HTTP/1.1" 200 13000 None
+28.09.2024 13-35-53 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-35-54 INFO "POST /admin/news/category/add/ HTTP/1.1" 302 0 None
+28.09.2024 13-35-54 INFO "GET /admin/news/category/ HTTP/1.1" 200 13493 None
+28.09.2024 13-35-54 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-36-00 INFO "GET /admin/news/category/add/ HTTP/1.1" 200 13000 None
+28.09.2024 13-36-00 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-36-04 INFO "POST /admin/news/category/add/ HTTP/1.1" 302 0 None
+28.09.2024 13-36-04 INFO "GET /admin/news/category/ HTTP/1.1" 200 13715 None
+28.09.2024 13-36-04 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-36-12 INFO "GET /admin/news/category/add/ HTTP/1.1" 200 13000 None
+28.09.2024 13-36-12 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-36-13 INFO "POST /admin/news/category/add/ HTTP/1.1" 302 0 None
+28.09.2024 13-36-13 INFO "GET /admin/news/category/ HTTP/1.1" 200 13921 None
+28.09.2024 13-36-13 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-36-18 INFO "GET /admin/news/category/add/ HTTP/1.1" 200 13000 None
+28.09.2024 13-36-18 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-36-19 INFO "POST /admin/news/category/add/ HTTP/1.1" 302 0 None
+28.09.2024 13-36-19 INFO "GET /admin/news/category/ HTTP/1.1" 200 14143 None
+28.09.2024 13-36-19 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-36-24 INFO "GET /admin/news/category/add/ HTTP/1.1" 200 13000 None
+28.09.2024 13-36-24 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-36-25 INFO "POST /admin/news/category/add/ HTTP/1.1" 302 0 None
+28.09.2024 13-36-25 INFO "GET /admin/news/category/ HTTP/1.1" 200 14361 None
+28.09.2024 13-36-25 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-36-30 INFO "GET /admin/news/category/add/ HTTP/1.1" 200 13000 None
+28.09.2024 13-36-30 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-36-31 INFO "POST /admin/news/category/add/ HTTP/1.1" 302 0 None
+28.09.2024 13-36-32 INFO "GET /admin/news/category/ HTTP/1.1" 200 14619 None
+28.09.2024 13-36-32 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-36-36 INFO "GET /admin/auth/group/ HTTP/1.1" 200 12731 None
+28.09.2024 13-36-36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-36-38 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 200 12335 None
+28.09.2024 13-36-38 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-36-39 INFO "GET /admin/auth/group/ HTTP/1.1" 200 12731 None
+28.09.2024 13-36-39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 13-36-45 INFO "GET / HTTP/1.1" 200 1180 None
+28.09.2024 13-36-48 INFO "GET /post/post/ HTTP/1.1" 200 2061 None
+28.09.2024 13-36-59 WARNING Not Found: /post/post/ads/create None
+28.09.2024 13-36-59 WARNING "GET /post/post/ads/create HTTP/1.1" 404 4332 None
+28.09.2024 13-37-11 INFO "GET /post/ads/create/ HTTP/1.1" 200 2946 None
+28.09.2024 14-46-25 INFO "GET / HTTP/1.1" 200 1180 None
+28.09.2024 14-46-42 INFO "POST /sign/logout/ HTTP/1.1" 200 256 None
+28.09.2024 14-46-43 INFO "GET / HTTP/1.1" 302 0 None
+28.09.2024 14-46-43 INFO "GET /accounts/login/?next=/ HTTP/1.1" 200 1714 None
+28.09.2024 14-46-45 INFO "GET /accounts/signup/?next=%2F HTTP/1.1" 200 1196 None
+28.09.2024 14-47-06 INFO "POST /accounts/signup/ HTTP/1.1" 302 0 None
+28.09.2024 14-47-06 INFO "GET /accounts/confirm-email/ HTTP/1.1" 200 502 None
+28.09.2024 14-47-33 INFO "GET /accounts/confirm-email/MQ:1suVuj:pmrBs0GDe67AzsKnCuuX9OKWBQu7ETZhgfkYTsUEDDE/ HTTP/1.1" 200 632 None
+28.09.2024 14-47-33 WARNING Not Found: /favicon.ico None
+28.09.2024 14-47-33 WARNING "GET /favicon.ico HTTP/1.1" 404 2685 None
+28.09.2024 14-47-37 INFO "POST /accounts/confirm-email/MQ:1suVvB:gUWIjC6E1WnN5-Qrlky4plHK8dsB_7xX5XJwEB4r62w/ HTTP/1.1" 302 0 None
+28.09.2024 14-47-37 INFO "GET /accounts/login/ HTTP/1.1" 200 1636 None
+28.09.2024 14-47-47 INFO "POST /accounts/login/ HTTP/1.1" 302 0 None
+28.09.2024 14-47-47 INFO "GET / HTTP/1.1" 200 1188 None
+28.09.2024 14-48-07 WARNING Not Found: /post/ads/cerate None
+28.09.2024 14-48-07 WARNING "GET /post/ads/cerate HTTP/1.1" 404 4317 None
+28.09.2024 14-48-18 WARNING Not Found: /post/ads/cereate None
+28.09.2024 14-48-18 WARNING "GET /post/ads/cereate HTTP/1.1" 404 4320 None
+28.09.2024 14-48-26 INFO "GET /post/ads/create HTTP/1.1" 301 0 None
+28.09.2024 14-48-26 WARNING Forbidden (Permission denied): /post/ads/create/ (<class 'django.core.exceptions.PermissionDenied'>, PermissionDenied(''), <traceback object at 0x000001CC3AA8F740>)
+Traceback (most recent call last):
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "C:\Users\ой\PycharmProjects\NewsProject\venv\lib\site-packages\django\contrib\auth\mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+28.09.2024 14-48-26 WARNING "GET /post/ads/create/ HTTP/1.1" 403 135 None
+28.09.2024 14-48-43 INFO "GET /admin/auth/group/ HTTP/1.1" 302 0 None
+28.09.2024 14-48-43 INFO "GET /admin/login/?next=/admin/auth/group/ HTTP/1.1" 200 4358 None
+28.09.2024 14-48-44 INFO "POST /admin/login/?next=/admin/auth/group/ HTTP/1.1" 302 0 None
+28.09.2024 14-48-44 INFO "GET /admin/auth/group/ HTTP/1.1" 200 12731 None
+28.09.2024 14-48-44 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 14-48-46 INFO "GET /admin/auth/group/1/change/ HTTP/1.1" 200 19575 None
+28.09.2024 14-48-46 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 14-48-51 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 200 14254 None
+28.09.2024 14-48-51 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 14-48-54 INFO "GET /admin/account/emailaddress/1/change/ HTTP/1.1" 200 14052 None
+28.09.2024 14-48-54 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
+28.09.2024 14-48-58 INFO "POST /admin/account/emailaddress/1/change/ HTTP/1.1" 302 0 None
+28.09.2024 14-48-58 INFO "GET /admin/account/emailaddress/ HTTP/1.1" 200 14485 None
+28.09.2024 14-48-58 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 None
