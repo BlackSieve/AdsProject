@@ -1,7 +1,9 @@
 from django.contrib.auth.decorators import login_required
+from django.core.mail import send_mail
 from django.shortcuts import get_object_or_404, render
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView, TemplateView
+from django.conf import settings
 
 
 from .models import Post, Category, Comment
@@ -133,6 +135,13 @@ class CommentCreatView(CreateView, LoginRequiredMixin):
         comment = form.save(commit=False)
         comment.post_id = self.kwargs['pk']
         comment.user = self.request.user
+        comment.save()
+        send_mail(
+            subject=f'New Comment on "{comment.post.title}"',
+            message=f'Вам был оставлен отклик "{comment.text}" пользователем {self.request.user.username.title()} на ваше объявление "{comment.post.title}"',
+            from_email=settings.DEFAULT_FROM_EMAIL,
+            recipient_list=[comment.post.author.user.email]
+        )
         return super().form_valid(form)
 
     def get_context_data(self, **kwargs):
