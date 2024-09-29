@@ -4,10 +4,10 @@ from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView, TemplateView
 
 
-from .models import Post, Category
+from .models import Post, Category, Comment
 from datetime import datetime
 from .filters import PostFilter
-from .forms import PostForms
+from .forms import PostForms, CommentForm
 from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
 
 
@@ -122,3 +122,20 @@ def subscribe(request, pk):
 
 
 
+class CommentCreatView(CreateView, LoginRequiredMixin):
+    form_class = CommentForm
+    model = Comment
+    template_name = 'comment_create.html'
+    context_object_name = 'comment'
+    success_url = reverse_lazy('post-list')
+
+    def form_valid(self, form):
+        comment = form.save(commit=False)
+        comment.post_id = self.kwargs['pk']
+        comment.user = self.request.user
+        return super().form_valid(form)
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['post']=Post.objects.get(id = self.kwargs['pk'])
+        return context

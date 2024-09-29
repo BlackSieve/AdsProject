@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import PostList, PostDetail, PostCreate, PostUpdate, PostDelete, PostSearch, CategoryListView, subscribe
+from .views import PostList, PostDetail, PostCreate, PostUpdate, PostDelete, PostSearch, CategoryListView, subscribe,CommentCreatView
 from sign.views import ConfirmUser
 
 urlpatterns = [
@@ -11,5 +11,6 @@ urlpatterns = [
     path('ads/<int:pk>/delete/', PostDelete.as_view(), name='ads-delete'),
     path('categories/<int:pk>/',CategoryListView.as_view(), name = 'category-list'),
     path('categories/<int:pk>/subscribe/', subscribe, name = 'subscribe'),
-    path('confirm/',ConfirmUser.as_view(),name = 'confirm_user')
+    path('confirm/',ConfirmUser.as_view(),name = 'confirm_user'),
+    path('comment/<int:pk>/create/', CommentCreatView.as_view(), name='comment-create')
     ]

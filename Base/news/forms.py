@@ -1,5 +1,5 @@
 from django import forms
-from .models import Post
+from .models import Post, Comment
 from django.core.exceptions import ValidationError
 
 
@@ -24,3 +24,11 @@ class PostForms(forms.ModelForm):
             )
 
         return cleaned_data
+
+
+class CommentForm(forms.ModelForm):
+    class Meta:
+        model = Comment
+        fields = [
+            'text'
+        ]
